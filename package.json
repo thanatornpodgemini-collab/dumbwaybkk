@@ -1,0 +1,45 @@
+{
+  "name": "dumbwaybkk",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "data:import": "node scripts/import-scraper-output.mjs"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "mapbox-gl": "3.6.0",
+    "react-map-gl": "7.1.7",
+    "framer-motion": "11.3.19",
+    "clsx": "2.1.1",
+    "zustand": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.10",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@types/mapbox-gl": "3.4.0",
+    "typescript": "5.5.3",
+    "tailwindcss": "3.4.7",
+    "postcss": "8.4.40",
+    "autoprefixer": "10.4.19",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.5",
+    "@storybook/nextjs": "8.2.7",
+    "@storybook/react": "8.2.7",
+    "@storybook/addon-essentials": "8.2.7",
+    "@storybook/addon-interactions": "8.2.7",
+    "@storybook/addon-themes": "8.2.7",
+    "@storybook/blocks": "8.2.7",
+    "@storybook/test": "8.2.7",
+    "storybook": "8.2.7"
+  }
+}

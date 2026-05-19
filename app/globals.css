@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&family=Noto+Sans+Thai:wght@400;600;700&display=swap');
+
+:root {
+  --bg: #fff6e8;
+  --fg: #1f2330;
+}
+
+html,
+body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'Nunito', system-ui, sans-serif;
+}
+
+body:lang(th) {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif;
+}
+
+.mapboxgl-popup-content {
+  padding: 0 !important;
+  border-radius: 16px !important;
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.18), 0 12px 30px rgba(0, 0, 0, 0.15) !important;
+  overflow: hidden;
+}
+
+.mapboxgl-popup-close-button {
+  font-size: 20px;
+  padding: 4px 10px;
+  color: #1f2330;
+}
+
+.mapboxgl-ctrl-attrib {
+  font-size: 10px !important;
+}

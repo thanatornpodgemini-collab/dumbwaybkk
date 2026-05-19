@@ -1,0 +1,38 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# next
+.next/
+out/
+build/
+dist/
+
+# storybook
+storybook-static/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# scraper outputs
+scraper/data/*.db
+scraper/data/raw/
+!scraper/data/.gitkeep
+
+# env
+.env
+.env.local
+.env*.local
+
+# misc
+.DS_Store
+*.log
+.vscode/
+.idea/
+tsconfig.tsbuildinfo
