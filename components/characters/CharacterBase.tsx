@@ -251,31 +251,33 @@ export function CharacterFace({
   severity = 'fatal',
   cy = 48,
   mouthY = 64,
+  showMouth = true,
 }: {
   severity?: Severity;
   cy?: number;
   mouthY?: number;
+  /** Set false when an accessory (mask, tongue) takes the mouth's place. */
+  showMouth?: boolean;
 }) {
-  if (severity === 'near_miss') {
-    return (
-      <>
-        <AliveEyes cy={cy} />
-        <ShockMouth cy={mouthY} rx={3.4} ry={4.2} />
-      </>
+  const eyes =
+    severity === 'near_miss' ? (
+      <AliveEyes cy={cy} />
+    ) : severity === 'injury' ? (
+      <DizzyEyes cy={cy} />
+    ) : (
+      <DeadEyes cy={cy} />
     );
-  }
-  if (severity === 'injury') {
-    return (
-      <>
-        <DizzyEyes cy={cy} />
-        <SquiggleMouth y={mouthY} />
-      </>
-    );
-  }
+  const mouth = !showMouth ? null : severity === 'near_miss' ? (
+    <ShockMouth cy={mouthY} rx={3.4} ry={4.2} />
+  ) : severity === 'injury' ? (
+    <SquiggleMouth y={mouthY} />
+  ) : (
+    <ShockMouth cy={mouthY} />
+  );
   return (
     <>
-      <DeadEyes cy={cy} />
-      <ShockMouth cy={mouthY} />
+      {eyes}
+      {mouth}
     </>
   );
 }

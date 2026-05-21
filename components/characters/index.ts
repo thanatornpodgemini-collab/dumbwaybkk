@@ -1,17 +1,18 @@
 import type { CategoryId } from '@/lib/types';
 import type { CharacterProps } from './CharacterBase';
-import { RailCharacter } from './RailCharacter';
-import { MotorbikeCharacter } from './MotorbikeCharacter';
-import { KlongBoatCharacter } from './KlongBoatCharacter';
-import { ElectrocutionCharacter } from './ElectrocutionCharacter';
-import { SoiDogCharacter } from './SoiDogCharacter';
-import { BillboardCharacter } from './BillboardCharacter';
-import { ConstructionCharacter } from './ConstructionCharacter';
-import { SongkranCharacter } from './SongkranCharacter';
-import { PollutionCharacter } from './PollutionCharacter';
-import { TukTukCharacter } from './TukTukCharacter';
-import { StreetFoodCharacter } from './StreetFoodCharacter';
-import { FloodCharacter } from './FloodCharacter';
+import type { CharacterTimeline } from './timelines';
+import { RailCharacter, railTimeline } from './RailCharacter';
+import { MotorbikeCharacter, motorbikeTimeline } from './MotorbikeCharacter';
+import { KlongBoatCharacter, klongBoatTimeline } from './KlongBoatCharacter';
+import { ElectrocutionCharacter, electrocutionTimeline } from './ElectrocutionCharacter';
+import { SoiDogCharacter, soiDogTimeline } from './SoiDogCharacter';
+import { BillboardCharacter, billboardTimeline } from './BillboardCharacter';
+import { ConstructionCharacter, constructionTimeline } from './ConstructionCharacter';
+import { SongkranCharacter, songkranTimeline } from './SongkranCharacter';
+import { PollutionCharacter, pollutionTimeline } from './PollutionCharacter';
+import { TukTukCharacter, tuktukTimeline } from './TukTukCharacter';
+import { StreetFoodCharacter, streetFoodTimeline } from './StreetFoodCharacter';
+import { FloodCharacter, floodTimeline } from './FloodCharacter';
 
 export const CHARACTERS = {
   rail: RailCharacter,
@@ -27,6 +28,22 @@ export const CHARACTERS = {
   street_food: StreetFoodCharacter,
   flood: FloodCharacter,
 } as const satisfies Record<CategoryId, (props: CharacterProps) => JSX.Element>;
+
+/** Bespoke "how it goes wrong" timeline per category, mirroring CHARACTERS. */
+export const TIMELINES = {
+  rail: railTimeline,
+  motorbike: motorbikeTimeline,
+  klong_boat: klongBoatTimeline,
+  electrocution: electrocutionTimeline,
+  soi_dog: soiDogTimeline,
+  billboard: billboardTimeline,
+  construction: constructionTimeline,
+  songkran: songkranTimeline,
+  pollution: pollutionTimeline,
+  tuktuk: tuktukTimeline,
+  street_food: streetFoodTimeline,
+  flood: floodTimeline,
+} as const satisfies Record<CategoryId, CharacterTimeline>;
 
 export type CharacterComponent = (typeof CHARACTERS)[CategoryId];
 
