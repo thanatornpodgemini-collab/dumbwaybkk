@@ -23,7 +23,7 @@ export const All: Story = {
             className="rounded-2xl border-2 border-dwtd-dark bg-white p-4 shadow-popsm flex flex-col items-center text-center gap-2"
           >
             <div className="rounded-xl border-2 border-dwtd-dark p-2" style={{ backgroundColor: cat.color }}>
-              <C size={96} animation="bob" />
+              <C size={96} />
             </div>
             <p className="font-display font-bold">{cat.label.en}</p>
             <p className="text-xs text-dwtd-mid">{cat.tagline.en}</p>
@@ -43,7 +43,7 @@ export const WobbleRow: Story = {
         const C = CHARACTERS[cat.id];
         return (
           <div key={cat.id} className="flex flex-col items-center gap-1 w-24">
-            <C size={72} animation="wobble" />
+            <C size={72} />
             <span className="text-xs text-center text-dwtd-mid">{cat.label.en}</span>
           </div>
         );

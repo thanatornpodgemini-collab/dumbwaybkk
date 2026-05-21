@@ -43,6 +43,7 @@ export function IncidentMap() {
   const activeCategory = useApp((s) => s.activeCategory);
   const selectedId = useApp((s) => s.selectedIncidentId);
   const setSelected = useApp((s) => s.setSelectedIncidentId);
+  const [hoveredId, setHoveredId] = React.useState<string | null>(null);
 
   const incidents = React.useMemo(
     () => getIncidents({ category: activeCategory ?? undefined }),
@@ -113,8 +114,18 @@ export function IncidentMap() {
               type="button"
               aria-label={inc.title.en}
               className="block hover:-translate-y-1 transition-transform drop-shadow"
+              onMouseEnter={() => setHoveredId(inc.id)}
+              onMouseLeave={() => setHoveredId((id) => (id === inc.id ? null : id))}
+              onFocus={() => setHoveredId(inc.id)}
+              onBlur={() => setHoveredId((id) => (id === inc.id ? null : id))}
             >
-              <C size={48} animation="bob" />
+              <C
+                size={48}
+                severity={inc.severity}
+                motionState={
+                  hoveredId === inc.id || selectedId === inc.id ? 'active' : 'idle'
+                }
+              />
             </button>
           </Marker>
         );

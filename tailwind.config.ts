@@ -35,25 +35,6 @@ const config: Config = {
         pop: '0 6px 0 rgba(0,0,0,0.18)',
         popsm: '0 3px 0 rgba(0,0,0,0.18)',
       },
-      keyframes: {
-        wobble: {
-          '0%, 100%': { transform: 'rotate(-3deg)' },
-          '50%': { transform: 'rotate(3deg)' },
-        },
-        bob: {
-          '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-4px)' },
-        },
-        spook: {
-          '0%, 100%': { transform: 'scale(1)' },
-          '50%': { transform: 'scale(1.08)' },
-        },
-      },
-      animation: {
-        wobble: 'wobble 1.8s ease-in-out infinite',
-        bob: 'bob 2.2s ease-in-out infinite',
-        spook: 'spook 1.6s ease-in-out infinite',
-      },
     },
   },
   plugins: [],

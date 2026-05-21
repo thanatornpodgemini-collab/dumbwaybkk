@@ -17,7 +17,7 @@ export function IncidentPopup({ incident }: { incident: Incident }) {
         className="p-3 flex items-center gap-3 border-b-2 border-dwtd-dark"
         style={{ backgroundColor: cat.color }}
       >
-        <C size={56} animation="wobble" />
+        <C size={56} severity={incident.severity} motionState="active" />
         <div className="min-w-0">
           <h3 className="font-display font-bold text-lg leading-tight text-dwtd-dark line-clamp-2">
             {t(incident.title, lang)}

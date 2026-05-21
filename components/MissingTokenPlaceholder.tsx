@@ -30,7 +30,7 @@ export function MissingTokenPlaceholder({ incidents }: { incidents: Incident[] }
                 className="shrink-0 rounded-xl border-2 border-dwtd-dark p-1"
                 style={{ backgroundColor: cat.color }}
               >
-                <C size={56} animation="bob" />
+                <C size={56} severity={inc.severity} motionState="idle" />
               </div>
               <div className="min-w-0">
                 <p className="font-display font-bold text-sm leading-tight line-clamp-2">
