@@ -4,7 +4,7 @@ import { BeanBody, CharacterFrame, DeadEyes, ShockMouth, type CharacterProps } f
 export function StreetFoodCharacter(props: CharacterProps) {
   return (
     <CharacterFrame {...props} title={props.title ?? 'Street food incident'}>
-      <BeanBody fill="#ff7a5a" accent="#c95a3e" />
+      <BeanBody fill="#5bc46b" accent="#3f9b4e" />
       <DeadEyes />
       <ShockMouth />
       {/* flame */}

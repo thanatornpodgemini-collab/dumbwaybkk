@@ -94,7 +94,7 @@ export const CATEGORIES: CategoryMeta[] = [
   {
     id: 'street_food',
     label: { en: 'Street food', th: 'อาหารริมทาง' },
-    color: '#ff7a5a',
+    color: '#5bc46b',
     tagline: {
       en: 'Standing next to a leaking gas cylinder',
       th: 'ยืนติดถังแก๊สที่รั่ว',
