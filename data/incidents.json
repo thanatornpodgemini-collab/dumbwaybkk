@@ -661,5 +661,97 @@
     "victims": 2,
     "sources": [],
     "seed": true
+  },
+  {
+    "id": "real-bts-psd-001",
+    "category": "bts_psd",
+    "title": { "en": "Woman fainted onto BTS tracks, Wongwian Yai", "th": "หญิงหมดสติตกลงรางรถไฟฟ้า สถานีวงเวียนใหญ่" },
+    "summary": {
+      "en": "A passenger fainted and fell from the platform onto the live tracks at Wongwian Yai station. A bystander alerted staff who halted trains in time. There are no platform screen doors at this station — a safety gap that has existed since the line opened.",
+      "th": "ผู้โดยสารหมดสติพลัดตกจากชานชาลาลงบนรางรถไฟที่ยังมีไฟฟ้าวิ่ง ที่สถานีวงเวียนใหญ่ ผู้พบเห็นแจ้งเจ้าหน้าที่หยุดรถไฟทันเวลา ไม่มีประตูกั้นชานชาลาในสถานีนี้ตั้งแต่เปิดให้บริการ"
+    },
+    "date": "2023-03-01",
+    "location": { "en": "Wongwian Yai BTS Station, Thon Buri", "th": "สถานี BTS วงเวียนใหญ่ เขตธนบุรี" },
+    "coordinates": [100.4749, 13.7198],
+    "radiusM": 50,
+    "severity": "near_miss",
+    "victims": 1,
+    "sources": [
+      { "name": "The Thaiger", "url": "https://thethaiger.com/news/bangkok/woman-faints-and-falls-onto-tracks-at-bangkok-bts-station" }
+    ]
+  },
+  {
+    "id": "real-bts-psd-002",
+    "category": "bts_psd",
+    "title": { "en": "Woman fainted and was hit by incoming BTS train, Mo Chit", "th": "หญิงหมดสติถูกรถไฟฟ้าชน สถานีหมอชิต" },
+    "summary": {
+      "en": "A passenger fainted and fell as a train entered Mo Chit station, and was struck by the front of the train. No platform screen doors. Services halted briefly. Had PSDs been installed — standard on every comparable metro in Southeast Asia — this incident could not have happened.",
+      "th": "ผู้โดยสารหมดสติล้มลงขณะรถไฟแล่นเข้าสถานีหมอชิต ถูกหน้าขบวนชน ไม่มีประตูกั้นชานชาลา หยุดให้บริการชั่วคราว หากติดตั้งประตูกั้นชานชาลาซึ่งเป็นมาตรฐานของระบบรถไฟใต้ดินทุกแห่งในเอเชียตะวันออกเฉียงใต้ เหตุการณ์นี้จะไม่เกิดขึ้น"
+    },
+    "date": "2018-09-01",
+    "location": { "en": "Mo Chit BTS Station, Chatuchak", "th": "สถานี BTS หมอชิต เขตจตุจักร" },
+    "coordinates": [100.5534, 13.8028],
+    "radiusM": 50,
+    "severity": "injury",
+    "victims": 1,
+    "sources": [
+      { "name": "The Thaiger", "url": "https://thethaiger.com/news/bangkok/woman-faints-and-falls-hitting-bangkok-bts-train-this-morning" }
+    ]
+  },
+  {
+    "id": "real-bts-psd-003",
+    "category": "bts_psd",
+    "title": { "en": "Woman found dead beneath Phra Khanong BTS station", "th": "พบหญิงเสียชีวิตใต้สถานี BTS พระโขนง" },
+    "summary": {
+      "en": "A 36-year-old woman was found critically injured on the pavement below Phra Khanong station on a rainy night in 2013 and died the following morning. The platform sits 8 metres above Sukhumvit Road. Cause classified as a mystery fall; the slippery wet platform and low-railing edge had no secondary barrier.",
+      "th": "พบหญิงอายุ 36 ปีบาดเจ็บสาหัสบนทางเท้าใต้สถานีพระโขนงในคืนฝนตก ปี 2556 เสียชีวิตเช้าวันรุ่งขึ้น ชานชาลาสูงจากถนนสุขุมวิท 8 เมตร สาเหตุถูกระบุเป็น 'ปริศนา' ชานชาลาลื่นและราวกั้นต่ำโดยไม่มีสิ่งกั้นสำรอง"
+    },
+    "date": "2013-10-24",
+    "location": { "en": "Phra Khanong BTS Station, Watthana", "th": "สถานี BTS พระโขนง เขตวัฒนา" },
+    "coordinates": [100.6032, 13.7141],
+    "radiusM": 50,
+    "severity": "fatal",
+    "victims": 1,
+    "sources": [
+      { "name": "Bangkok Post", "url": "https://www.bangkokpost.com/thailand/politics/369375/woman-dies-in-mystery-fall-from-bts-platform" }
+    ]
+  },
+  {
+    "id": "real-makkasan-2026",
+    "category": "makkasan_crossing",
+    "title": { "en": "Bus trapped on level crossing — 8 dead, Makkasan 2026", "th": "รถบัสติดบนทางข้ามรถไฟ เสียชีวิต 8 ราย มักกะสัน 2569" },
+    "summary": {
+      "en": "In May 2026, a bus became trapped on the Makkasan level crossing after the barriers came down around it. The driver had no emergency line to halt the approaching SRT train. The train struck the bus, killing 8 and injuring 33+. Three systems failed simultaneously: the barrier sensor (no 'vehicle still present' check), the emergency halt protocol (no driver hotline to the control room), and driver training (no reversal procedure).",
+      "th": "เดือนพฤษภาคม 2569 รถโดยสารติดอยู่บนทางข้ามรถไฟมักกะสันหลังไม้กั้นปิดลงรอบคัน คนขับไม่มีสายด่วนหยุดรถไฟ SRT ที่กำลังวิ่งเข้ามา รถไฟพุ่งชนรถบัส เสียชีวิต 8 ราย บาดเจ็บกว่า 33 ราย ระบบสามอย่างล้มเหลวพร้อมกัน: เซ็นเซอร์ไม้กั้น ระบบหยุดฉุกเฉิน และการฝึกอบรมคนขับ"
+    },
+    "date": "2026-05-16",
+    "location": { "en": "Makkasan Level Crossing, Ratchathewi, Bangkok", "th": "ทางข้ามรถไฟมักกะสัน เขตราชเทวี กรุงเทพฯ" },
+    "coordinates": [100.5645, 13.7490],
+    "radiusM": 150,
+    "severity": "fatal",
+    "victims": 8,
+    "sources": [
+      { "name": "Bangkok Post", "url": "https://www.bangkokpost.com/thailand/general/3256083/at-least-8-dead-in-bangkok-bustrain-collision" },
+      { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/5/16/at-least-eight-killed-25-injured-as-train-hits-bus-in-bangkok" }
+    ]
+  },
+  {
+    "id": "real-sikhio-2026",
+    "category": "sikhio_crash",
+    "title": { "en": "Crane truck hit passenger train — 30 dead, Sikhio 2026", "th": "รถบรรทุกเครนชนรถไฟโดยสาร เสียชีวิต 30 ราย สีคิ้ว 2569" },
+    "summary": {
+      "en": "In January 2026, a truck carrying an oversized crane crossed a level crossing in Sikhio, Nakhon Ratchasima. The crane boom struck an oncoming passenger train. 30 died and dozens were injured. Three systems failed: the crane's transit permit did not cover the railway corridor, no proximity sensor existed at the crossing, and the single-track line offered no evasion margin.",
+      "th": "เดือนมกราคม 2569 รถบรรทุกขนเครนขนาดใหญ่ผ่านทางข้ามรถไฟในอำเภอสีคิ้ว จังหวัดนครราชสีมา แขนบูมเครนพุ่งชนรถไฟโดยสาร เสียชีวิต 30 ราย บาดเจ็บหลายสิบราย ระบบสามอย่างล้มเหลว: ใบอนุญาตขนส่งเครนไม่ครอบคลุมทางรถไฟ ไม่มีเซ็นเซอร์ตรวจจับที่ทางข้าม และรางเดี่ยวไม่มีทางหลบ"
+    },
+    "date": "2026-01-05",
+    "location": { "en": "Sikhio, Nakhon Ratchasima (250 km NE of Bangkok)", "th": "อำเภอสีคิ้ว จังหวัดนครราชสีมา (ห่างกรุงเทพฯ 250 กม.)" },
+    "coordinates": [101.7260, 14.8870],
+    "radiusM": 300,
+    "severity": "fatal",
+    "victims": 30,
+    "sources": [
+      { "name": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Sikhio_train_disaster" },
+      { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/1/5/at-least-30-killed-in-thailand-train-crash" }
+    ]
   }
 ]

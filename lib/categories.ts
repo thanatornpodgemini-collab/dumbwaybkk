@@ -109,6 +109,33 @@ export const CATEGORIES: CategoryMeta[] = [
       th: 'ขับเจ็ตสกีบนถนนสุขุมวิทตอนน้ำท่วม',
     },
   },
+  {
+    id: 'bts_psd',
+    label: { en: 'BTS: No Screen Doors', th: 'BTS: ไม่มีประตูกั้นชานชาลา' },
+    color: '#1565c0',
+    tagline: {
+      en: 'Nothing between you and the tracks',
+      th: 'ไม่มีอะไรกั้นระหว่างคุณกับราง',
+    },
+  },
+  {
+    id: 'makkasan_crossing',
+    label: { en: 'Makkasan Crossing 2026', th: 'ทางข้ามมักกะสัน 2569' },
+    color: '#b91c1c',
+    tagline: {
+      en: 'Barriers down. Bus stuck. Train on its way.',
+      th: 'ไม้กั้นปิด รถบัสติด รถไฟกำลังมา',
+    },
+  },
+  {
+    id: 'sikhio_crash',
+    label: { en: 'Sikhio Train Crash 2026', th: 'รถไฟสีคิ้วชน 2569' },
+    color: '#78350f',
+    tagline: {
+      en: 'Crane. Truck. Train. No warning.',
+      th: 'เครน รถบรรทุก รถไฟ ไม่มีสัญญาณเตือน',
+    },
+  },
 ];
 
 export const CATEGORIES_BY_ID: Record<string, CategoryMeta> = Object.fromEntries(

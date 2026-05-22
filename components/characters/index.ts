@@ -13,6 +13,9 @@ import { PollutionCharacter, pollutionTimeline } from './PollutionCharacter';
 import { TukTukCharacter, tuktukTimeline } from './TukTukCharacter';
 import { StreetFoodCharacter, streetFoodTimeline } from './StreetFoodCharacter';
 import { FloodCharacter, floodTimeline } from './FloodCharacter';
+import { BtsPsdCharacter, btsPsdTimeline } from './BtsPsdCharacter';
+import { MakassanCrossingCharacter, makassanCrossingTimeline } from './MakassanCrossingCharacter';
+import { SikhioCrashCharacter, sikhioCrashTimeline } from './SikhioCrashCharacter';
 
 export const CHARACTERS = {
   rail: RailCharacter,
@@ -27,6 +30,9 @@ export const CHARACTERS = {
   tuktuk: TukTukCharacter,
   street_food: StreetFoodCharacter,
   flood: FloodCharacter,
+  bts_psd: BtsPsdCharacter,
+  makkasan_crossing: MakassanCrossingCharacter,
+  sikhio_crash: SikhioCrashCharacter,
 } as const satisfies Record<CategoryId, (props: CharacterProps) => JSX.Element>;
 
 /** Bespoke "how it goes wrong" timeline per category, mirroring CHARACTERS. */
@@ -43,6 +49,9 @@ export const TIMELINES = {
   tuktuk: tuktukTimeline,
   street_food: streetFoodTimeline,
   flood: floodTimeline,
+  bts_psd: btsPsdTimeline,
+  makkasan_crossing: makassanCrossingTimeline,
+  sikhio_crash: sikhioCrashTimeline,
 } as const satisfies Record<CategoryId, CharacterTimeline>;
 
 export type CharacterComponent = (typeof CHARACTERS)[CategoryId];
@@ -60,4 +69,7 @@ export {
   TukTukCharacter,
   StreetFoodCharacter,
   FloodCharacter,
+  BtsPsdCharacter,
+  MakassanCrossingCharacter,
+  SikhioCrashCharacter,
 };

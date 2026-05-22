@@ -10,7 +10,10 @@ export type CategoryId =
   | 'pollution'
   | 'tuktuk'
   | 'street_food'
-  | 'flood';
+  | 'flood'
+  | 'bts_psd'
+  | 'makkasan_crossing'
+  | 'sikhio_crash';
 
 export type Severity = 'fatal' | 'injury' | 'near_miss';
 
