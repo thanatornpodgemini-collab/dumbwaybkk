@@ -2576,5 +2576,601 @@
         "url": "https://thethaiger.com/news/bangkok/tuk-tuk-driver-faints-crashes-into-taxi-in-bangkok"
       }
     ]
+  },
+  {
+    "id": "scraped2-electrocution-001",
+    "category": "electrocution",
+    "title": {
+      "en": "Painter electrocuted by high-voltage cable on Ratchadaphisek Road",
+      "th": "ช่างทาสีถูกไฟดูดจากสายไฟแรงสูงบนถนนราชดำเนิน"
+    },
+    "summary": {
+      "en": "A 25-year-old Myanmar worker suspended by ropes while painting a high-rise building was electrocuted when his abseiling rope made contact with a high-voltage power line. He sustained 70% thermal and electrical burns.",
+      "th": "ผู้ชายอายุ 25 ปีชาวเมียนมาซึ่งแขวนตัวด้วยเชือกขณะทำการทาสีอาคารสูงถูกไฟดูดจากสายไฟแรงสูง เขาได้รับแผลไฟไหม้ 70% ของร่างกาย"
+    },
+    "date": "2026-06-16",
+    "location": {
+      "en": "Ratchadaphisek Road, Bangkok",
+      "th": "ถนนราชดำเนิน กรุงเทพมหานคร"
+    },
+    "coordinates": [
+      100.5851,
+      13.8045
+    ],
+    "radiusM": 100,
+    "severity": "injury",
+    "victims": 1,
+    "sources": [
+      {
+        "name": "Must Share News",
+        "url": "https://mustsharenews.com/painting-worker-electrocuted/"
+      },
+      {
+        "name": "Thai Enquirer (X/Twitter)",
+        "url": "https://x.com/ThaiEnquirer/status/2067179798049485151"
+      }
+    ]
+  },
+  {
+    "id": "scraped2-construction-001",
+    "category": "construction",
+    "title": {
+      "en": "Man dies after falling into uncovered manhole in Lat Phrao",
+      "th": "ชายวัยกลางคนเสียชีวิตหลังตกลงไปในท่อส่งน้ำเปิดโล่งที่ลาดพร้าว"
+    },
+    "summary": {
+      "en": "A 59-year-old man from Wang Thong Lang district crossed a road and fell into a 15-metre-deep manhole belonging to the Metropolitan Electricity Authority (MEA). The manhole cover had been stolen and temporarily replaced with plywood, which gave way under his weight.",
+      "th": "ชายอายุ 59 ปีจากเขตวัฒนา ขณะข้ามถนนตกลงไปในท่อส่งน้ำลึก 15 เมตรของการไฟฟ้านครหลวง ฝาท่อที่ถูกขโมยไปถูกแทนที่ด้วยไม้อัด ซึ่งพังเสียภายใต้น้ำหนักของเขา"
+    },
+    "date": "2024-05-03",
+    "location": {
+      "en": "Lat Phrao Soi 49, Wang Thong Lang District, Bangkok",
+      "th": "ซอยลาดพร้าว 49 เขตวัฒนา กรุงเทพมหานคร"
+    },
+    "coordinates": [
+      100.6501,
+      13.8967
+    ],
+    "radiusM": 80,
+    "severity": "fatal",
+    "victims": 1,
+    "sources": [
+      {
+        "name": "Bangkok Post",
+        "url": "https://www.bangkokpost.com/thailand/general/2786389/man-dies-after-falling-into-tube-well-in-lat-phrao"
+      },
+      {
+        "name": "Khaosodenglish",
+        "url": "https://www.khaosodenglish.com/news/bangkok/2024/05/04/bangkok-deadly-manhole-cover-prompts-thai-authorities-to-act/amp/"
+      }
+    ]
+  },
+  {
+    "id": "scraped2-construction-002",
+    "category": "construction",
+    "title": {
+      "en": "Motorcyclist dies after falling into open drainage inside Mahai Sawan underpass",
+      "th": "นักขี่มอเตอร์ไซค์เสียชีวิตหลังตกลงไปในระบายน้ำเปิดโล่งในอุโมงค์มหัยศวร"
+    },
+    "summary": {
+      "en": "A 29-year-old motorcyclist skidded at high speed inside the Mahai Sawan underpass, falling into an open drainage system. The drainage cover had been stolen and not replaced, causing the fatal accident.",
+      "th": "นักขี่มอเตอร์ไซค์อายุ 29 ปีลื่นไถลขณะขับรถด้วยความเร็วสูงในอุโมงค์มหัยศวร ตกลงไปในระบายน้ำเปิดโล่ง ฝาระบายน้ำถูกขโมยไปและไม่มีการแทนที่"
+    },
+    "date": "2024-05-06",
+    "location": {
+      "en": "Mahai Sawan Underpass, Thon Buri District, Bangkok",
+      "th": "อุโมงค์มหัยศวร เขตธนบุรี กรุงเทพมหานคร"
+    },
+    "coordinates": [
+      100.4945,
+      13.7349
+    ],
+    "radiusM": 100,
+    "severity": "fatal",
+    "victims": 1,
+    "sources": [
+      {
+        "name": "Bangkok Post",
+        "url": "https://www.bangkokpost.com/thailand/general/2787782/motorcyclist-dies-after-falling-down-drain"
+      }
+    ]
+  },
+  {
+    "id": "scraped2-construction-003",
+    "category": "construction",
+    "title": {
+      "en": "Elevated bridge under construction collapses in Lat Krabang district",
+      "th": "สะพานยกระดับที่อยู่ระหว่างการก่อสร้างทรุดพังที่เขตหลักสี่"
+    },
+    "summary": {
+      "en": "A segment of the elevated On Nut-Lat Krabang road being constructed collapsed on July 10, 2023, killing 2 people including an engineer and injuring at least 17 others. Eight cars and four motorcycles were crushed in the incident.",
+      "th": "ส่วนของถนนยกระดับอนุสาวรีย์-หลักสี่ที่อยู่ระหว่างการก่อสร้างทรุดพังเมื่อวันที่ 10 กรกฎาคม 2023 ส่งผลให้คนตายอย่างน้อย 2 คน รวมถึงวิศวกรผู้บริหารงาน และบาดเจ็บอย่างน้อย 17 คน รถยนต์ 8 คันและรถจักรยานยนต์ 4 คันถูกเขมื่อ"
+    },
+    "date": "2023-07-10",
+    "location": {
+      "en": "Lat Krabang District, Bangkok (Luang Phaeng Road)",
+      "th": "เขตหลักสี่ กรุงเทพมหานคร (ถนนหลวงแพ่ง)"
+    },
+    "coordinates": [
+      100.8179,
+      13.7156
+    ],
+    "radiusM": 150,
+    "severity": "fatal",
+    "victims": 2,
+    "sources": [
+      {
+        "name": "New Civil Engineer",
+        "url": "https://www.newcivilengineer.com/latest/fatal-collapse-of-under-construction-bangkok-bridge-a-stark-reminder-of-safe-working-procedures-12-07-2023/"
+      },
+      {
+        "name": "Khaosodenglish",
+        "url": "https://www.khaosodenglish.com/news/2023/07/11/bangkok-elevated-road-fatally-collapsed/"
+      }
+    ]
+  },
+  {
+    "id": "scraped2-street_food-001",
+    "category": "street_food",
+    "title": {
+      "en": "Oxygen Cylinder Explosion at Distribution Business",
+      "th": "ระเบิดถังออกซิเจนที่ร้านจำหน่าย"
+    },
+    "summary": {
+      "en": "An oxygen cylinder exploded at a distribution business in Nong Khaem district, killing a 30-year-old worker. The lower half of his body was torn away by the blast.",
+      "th": "ถังออกซิเจนระเบิดที่อาคารธุรกิจจำหน่ายในเขตหนองแขม เสียชีวิต 1 คน อายุ 30 ปี ส่วนล่างของร่างกายถูกการระเบิดฉีกขาด"
+    },
+    "date": "2024-05-23",
+    "location": {
+      "en": "Phetkasem Road, Nong Khaem District",
+      "th": "ถนนเพชรเกษม เขตหนองแขม"
+    },
+    "coordinates": [
+      100.4,
+      13.65
+    ],
+    "radiusM": 100,
+    "severity": "fatal",
+    "victims": 1,
+    "sources": [
+      {
+        "name": "Bangkok Post",
+        "url": "https://www.bangkokpost.com/thailand/general/2798165/gas-cylinder-explosion-kills-man-at-home-used-for-storage"
+      },
+      {
+        "name": "Thaiger",
+        "url": "https://thethaiger.com/news/national/oxygen-tank-explosion-kills-worker-and-damages-bangkok-home"
+      }
+    ]
+  },
+  {
+    "id": "scraped2-street_food-002",
+    "category": "street_food",
+    "title": {
+      "en": "Chatuchak Weekend Market Fire",
+      "th": "ไฟไหม้ตลาดสตรีวันสุดสัปดาห์จตุจักร"
+    },
+    "summary": {
+      "en": "A fire destroyed 48 shop units at Chatuchak Weekend Market, covering 240 square meters. The fire was triggered by an electrical short circuit. No injuries reported.",
+      "th": "ไฟไหม้ทำลายร้านค้า 48 หน่วยที่ตลาดจตุจักร พื้นที่ 240 ตร.ม. เกิดจากไฟฟ้าลัดวงจร ไม่มีผู้บาดเจ็บ"
+    },
+    "date": "2026-02-09",
+    "location": {
+      "en": "Chatuchak Weekend Market, Kamphaeng Phet 2 Road, Chatuchak District",
+      "th": "ตลาดจตุจักร ถนนกำแพงเพชร 2 เขตจตุจักร"
+    },
+    "coordinates": [
+      100.56,
+      13.81
+    ],
+    "radiusM": 150,
+    "severity": "near_miss",
+    "sources": [
+      {
+        "name": "Bangkok Post",
+        "url": "https://www.bangkokpost.com/thailand/general/3194229/fire-destroys-28-stalls-at-chatuchak-weekend-market"
+      },
+      {
+        "name": "Nation Thailand",
+        "url": "https://www.nationthailand.com/news/general/40062331"
+      },
+      {
+        "name": "Thaiger",
+        "url": "https://thethaiger.com/news/bangkok/fire-damages-28-shops-at-chatuchak-weekend-market-in-bangkok"
+      }
+    ]
+  },
+  {
+    "id": "scraped2-street_food-003",
+    "category": "street_food",
+    "title": {
+      "en": "RCA Restaurant Fire",
+      "th": "ไฟไหม้ร้านอาหารบริเวณอาร์ซีเอ"
+    },
+    "summary": {
+      "en": "A fire broke out at a restaurant in the RCA area of Bangkok's Huai Khwang district. No casualties or people were trapped inside the building. Fire control achieved within 23 minutes.",
+      "th": "ไฟไหม้ที่ร้านอาหารในบริเวณอาร์ซีเอ เขตห้วยขวาง กรุงเทพ ไม่มีผู้ได้รับบาดเจ็บ ควบคุมเพลิงได้ภายใน 23 นาที"
+    },
+    "date": "2025-10-06",
+    "location": {
+      "en": "RCA Area, Bang Kapi Subdistrict, Huai Khwang District",
+      "th": "บริเวณอาร์ซีเอ ตำบลบางกะปิ เขตห้วยขวาง"
+    },
+    "coordinates": [
+      100.57,
+      13.76
+    ],
+    "radiusM": 100,
+    "severity": "near_miss",
+    "sources": [
+      {
+        "name": "Nation Thailand",
+        "url": "https://www.nationthailand.com/news/general/40056433"
+      }
+    ]
+  },
+  {
+    "id": "scraped2-klong_boat-001",
+    "category": "klong_boat",
+    "title": {
+      "en": "Saen Saeb Canal Commuter Boat Explosion",
+      "th": "ระเบิดเรือด่วนคลองแสนแสบ"
+    },
+    "summary": {
+      "en": "An explosion occurred on a Saen Saeb canal commuter boat near Wat Thep Leela pier, injuring 60 passengers. A gas cylinder installed on the boat exploded. Fourteen passengers required hospitalization and four were in intensive care.",
+      "th": "เรือด่วนคลองแสนแสบระเบิดใกล้วัดเทพลีลา ผู้โดยสาร 60 คนบาดเจ็บ ถังแก๊สบนเรือระเบิด ผู้โดยสาร 14 คนเข้ารพ. และ 4 คนในหน่วยดูแล"
+    },
+    "date": "2021-04-01",
+    "location": {
+      "en": "Saen Saeb Canal, Wat Thep Leela Pier, Huai Khwang District",
+      "th": "คลองแสนแสบ ท่าวัดเทพลีลา เขตห้วยขวาง"
+    },
+    "coordinates": [
+      100.56,
+      13.73
+    ],
+    "radiusM": 80,
+    "severity": "injury",
+    "victims": 60,
+    "sources": [
+      {
+        "name": "Nation Thailand",
+        "url": "https://www.nationthailand.com/in-focus/30280832"
+      },
+      {
+        "name": "AA (Anadolu Agency)",
+        "url": "https://www.aa.com.tr/en/world/at-least-60-hurt-by-boat-engine-explosion-in-thai-capital-/531901"
+      }
+    ]
+  },
+  {
+    "id": "scraped2-motorbike-001",
+    "category": "motorbike",
+    "title": {
+      "en": "Pothole-related motorcycle death on Sukhumvit Road",
+      "th": "นักขี่มอเตอร์ไซค์เสียชีวิตจากหลุมถนนบนสุขุมวิท"
+    },
+    "summary": {
+      "en": "31-year-old motorcyclist died after hitting a pothole on Sukhumvit Road in Samut Prakan, losing control and striking his head on the pavement.",
+      "th": "นักขี่มอเตอร์ไซค์อายุ 31 ปี เสียชีวิตหลังจากชนกับหลุมถนนบนสุขุมวิท สูญเสียการควบคุมและกระแทกศีรษะลงบนถนน"
+    },
+    "date": "2024-10-15",
+    "location": {
+      "en": "Sukhumvit Road, Samut Prakan",
+      "th": "ถนนสุขุมวิท สมุทรปราการ"
+    },
+    "coordinates": [
+      100.7736,
+      13.5971
+    ],
+    "radiusM": 100,
+    "severity": "fatal",
+    "victims": 1,
+    "sources": [
+      {
+        "name": "ASEANNOW",
+        "url": "https://aseannow.com/topic/1341336-31-year-old-man-dies-after-motorcycle-crash-caused-by-pothole-in-samut-prakan/"
+      }
+    ]
+  },
+  {
+    "id": "scraped2-motorbike-002",
+    "category": "motorbike",
+    "title": {
+      "en": "Motorcycle plunges into canal in Pathum Thani",
+      "th": "มอเตอร์ไซค์ร่วงลงคลองในปทุมธานี"
+    },
+    "summary": {
+      "en": "46-year-old motorcyclist Apichai lost control on a curve in Thanyaburi district and crashed through a barrier, plunging into a canal and drowning. Divers recovered his body after over two hours of searching.",
+      "th": "นักขี่อายุ 46 ปี ชื่อ อภิชัย สูญเสียการควบคุมในโค้งที่อำเภอธัญบุรี แล้วชนกำแพงและร่วงลงคลอง ถูกจมน้ำและเสียชีวิต ตำรวจดำน้ำค้นหาศพกว่า 2 ชั่วโมง"
+    },
+    "date": "2026-04-22",
+    "location": {
+      "en": "Tambon Rangsit, Thanyaburi District, Pathum Thani",
+      "th": "ตำบลรังสิต อำเภอธัญบุรี ปทุมธานี"
+    },
+    "coordinates": [
+      100.7196,
+      13.9831
+    ],
+    "radiusM": 150,
+    "severity": "fatal",
+    "victims": 1,
+    "sources": [
+      {
+        "name": "Bangkok Post",
+        "url": "https://www.bangkokpost.com/thailand/general/3237270/big-biker-rider-dies-after-plunging-into-canal-in-pathum-thani"
+      }
+    ]
+  },
+  {
+    "id": "scraped2-motorbike-003",
+    "category": "motorbike",
+    "title": {
+      "en": "Delivery couple killed by cement mixer truck in Nonthaburi",
+      "th": "คู่รักไรเดอร์ถูกรถตรึงปูนฆ่าตัวเองในนนทบุรี"
+    },
+    "summary": {
+      "en": "A 33-year-old delivery rider from Kanchanaburi and his 37-year-old wife from Suphanburi were killed when a 10-wheel cement mixer truck struck their motorcycle near Tiwanon Soi 12 in Muang Nonthaburi.",
+      "th": "ไรเดอร์อายุ 33 ปีจากกาญจนบุรีและภรรยาอายุ 37 ปีจากสุพรรณบุรี ถูกรถตรึงปูน 10 ล้อชนรถจักรยานยนต์เสียชีวิต ใกล้กับทีวานนน ซอย 12"
+    },
+    "date": "2026-01-19",
+    "location": {
+      "en": "Tiwanon Soi 12, Muang Nonthaburi, Nonthaburi",
+      "th": "ทีวานนน ซอย 12 เมืองนนทบุรี นนทบุรี"
+    },
+    "coordinates": [
+      100.5239,
+      13.8641
+    ],
+    "radiusM": 100,
+    "severity": "fatal",
+    "victims": 2,
+    "sources": [
+      {
+        "name": "Thaiger",
+        "url": "https://thethaiger.com/hot-news/road-deaths/cement-mixer-truck-collision-kills-rider-injures-passenger-in-nonthaburi"
+      }
+    ]
+  },
+  {
+    "id": "scraped2-motorbike-004",
+    "category": "motorbike",
+    "title": {
+      "en": "Bus hits two delivery riders in Bangkok",
+      "th": "รถเมล์ชนไรเดอร์สองคนในกรุงเทพ"
+    },
+    "summary": {
+      "en": "A delivery rider and passenger were killed when a Bangkok Mass Transit bus route 7ก struck their motorcycle in front of Phutthamonthon Market in Thawi Watthana district.",
+      "th": "ไรเดอร์และผู้ซ้อนท้ายเสียชีวิตเมื่อรถเมล์สาย 7ก ชนรถจักรยานยนต์ของพวกเขา หน้าตลาดพุทธมณฑล"
+    },
+    "date": "2026-05-10",
+    "location": {
+      "en": "Phutthamonthon Market, Thawi Watthana District, Bangkok",
+      "th": "ตลาดพุทธมณฑล เขตทวีวัฒนา กรุงเทพมหานคร"
+    },
+    "coordinates": [
+      100.3328,
+      13.7936
+    ],
+    "radiusM": 100,
+    "severity": "fatal",
+    "victims": 2,
+    "sources": [
+      {
+        "name": "Thai news search",
+        "url": "https://www.thairath.co.th/tags/%E0%B8%AD%E0%B8%B8%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B9%80%E0%B8%AB%E0%B8%95%E0%B8%B8%E0%B8%A3%E0%B8%96%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B8%A2%E0%B8%99%E0%B8%95%E0%B9%8C"
+      }
+    ]
+  },
+  {
+    "id": "scraped2-motorbike-005",
+    "category": "motorbike",
+    "title": {
+      "en": "Delivery rider killed by pickup truck in Nonthaburi",
+      "th": "ไรเดอร์ถูกรถกระบะชนเสียชีวิตในนนทบุรี"
+    },
+    "summary": {
+      "en": "43-year-old delivery rider Sornarin Nakongsi was killed when a pickup truck driven by an intoxicated National Anti-Corruption Commission official struck his motorcycle on Rattanaothib Bridge in Nonthaburi, severing his arm.",
+      "th": "ไรเดอร์อายุ 43 ปี ชื่อ สรนารินทร์ นาคงสี ถูกรถกระบะขับโดยเจ้าหน้าที่ป.ป.ช. ที่เมาชนท้าย บนสะพานรัตนาธิเบศร์ เสียแขน และเสียชีวิต"
+    },
+    "date": "2026-05-27",
+    "location": {
+      "en": "Rattanaothib Bridge, Muang Nonthaburi, Nonthaburi",
+      "th": "สะพานรัตนาธิเบศร์ เมืองนนทบุรี นนทบุรี"
+    },
+    "coordinates": [
+      100.5239,
+      13.8641
+    ],
+    "radiusM": 100,
+    "severity": "fatal",
+    "victims": 1,
+    "sources": [
+      {
+        "name": "Bangkok Post",
+        "url": "https://www.bangkokpost.com/thailand/general/3262295/anticorruption-official-tests-drunk-after-fatal-crash"
+      }
+    ]
+  },
+  {
+    "id": "scraped2-soi_dog-001",
+    "category": "soi_dog",
+    "title": {
+      "en": "Young boy severely bitten by Bangkaew dog in Don Mueang",
+      "th": "เด็กชายถูกหมาบ้างแแขwแกวกัดสาหัสในดอนเมือง"
+    },
+    "summary": {
+      "en": "A 9-year-old boy named Captain was bitten by a Bangkaew mixed-breed dog on the evening of April 10, 2026, near an old market. The bite tore his testicle, causing severe bleeding and requiring emergency surgery for repair at Cherdwutthakart area.",
+      "th": "เด็กชายอายุ 9 ปี ชื่อ กัปตัน ถูกหมาบ้างแแขwแกวผสมกัดในเย็นวันที่ 10 เมษายน 2026 ใกล้ตลาดเก่า บาดเจ็บที่อัณฑะอย่างสาหัส ต้องผ่าตัดเพื่อซ่อมแซม"
+    },
+    "date": "2026-04-10",
+    "location": {
+      "en": "Old Market, Cherdwutthakart Road, Don Mueang District, Bangkok",
+      "th": "ตลาดเก่า ถนนเจริงวุฒธาการ ดอนเมือง กรุงเทพมหานคร"
+    },
+    "coordinates": [
+      100.5932,
+      13.9211
+    ],
+    "radiusM": 100,
+    "severity": "injury",
+    "victims": 1,
+    "sources": [
+      {
+        "name": "Thai Rath",
+        "url": "https://en.thairath.co.th/news/local/2927752"
+      }
+    ]
+  },
+  {
+    "id": "scraped2-rail-001",
+    "category": "rail",
+    "title": {
+      "en": "Pink Line Conductor Rail Fell",
+      "th": "รางวิทยุของรถไฟฟ้า MRT สายชมพู พังตกลงมา"
+    },
+    "summary": {
+      "en": "A 300m section of electrified conductor rail fell from the Pink Line elevated structure near Samakkhi station, landing on the roadway below. Three vehicles were damaged but no injuries were reported.",
+      "th": "รางวิทยุไฟฟ้าความยาว 300 เมตรตกจากโครงสร้างสูงของสายชมพูใกล้สถานีสมัคคี ทำให้เกิดความเสียหายต่อรถ 3 คัน แต่ไม่มีผู้บาดเจ็บ"
+    },
+    "date": "2023-12-24",
+    "location": {
+      "en": "Samakkhi Station, Nonthaburi",
+      "th": "สถานีสมัคคี จังหวัดนนทบุรี"
+    },
+    "coordinates": [
+      100.5096,
+      13.9491
+    ],
+    "radiusM": 200,
+    "severity": "near_miss",
+    "sources": [
+      {
+        "name": "The Pattaya News",
+        "url": "https://thepattayanews.com/2023/12/27/update-falling-conductor-rail-from-pink-line-incident-prompts-service-suspension-and-safety-measures/"
+      },
+      {
+        "name": "Bangkok Post",
+        "url": "https://www.bangkokpost.com/thailand/general/2711978/pink-line-conductor-rail-collapses-in-nonthaburi"
+      },
+      {
+        "name": "Thai Newsroom",
+        "url": "https://thainewsroom.com/2023/12/24/pink-line-rail-falls-on-three-vehicles-snaps-power-pole/"
+      }
+    ]
+  },
+  {
+    "id": "scraped2-rail-002",
+    "category": "rail",
+    "title": {
+      "en": "Yellow Line Guide Wheel Fell",
+      "th": "ล้อสายชีพของสายเหลืองตกลงมา"
+    },
+    "summary": {
+      "en": "A guide wheel from a Yellow Line train detached and fell onto Thepharak Road below between Si Thepha and Si Dan stations. The wheel struck a taxi but the driver and passenger were uninjured.",
+      "th": "ล้อนำทางของรถไฟฟ้าสายเหลืองหลุดตกลงมาบนถนนเทพารักษ์ระหว่างสถานีศรีเทพและศรีดั้น โจมตีแท็กซี่ แต่คนขับและผู้โดยสารไม่ได้รับบาดเจ็บ"
+    },
+    "date": "2024-01-02",
+    "location": {
+      "en": "Between Si Thepha and Si Dan Stations, Bangkok",
+      "th": "ระหว่างสถานีศรีเทพและศรีดั้น กรุงเทพมหานคร"
+    },
+    "coordinates": [
+      100.6152,
+      13.8229
+    ],
+    "radiusM": 150,
+    "severity": "near_miss",
+    "sources": [
+      {
+        "name": "Thai Newsroom",
+        "url": "https://thainewsroom.com/2024/01/02/again-yellow-lines-wheel-falls-on-taxi-below/"
+      },
+      {
+        "name": "Bangkok Post",
+        "url": "https://www.bangkokpost.com/thailand/general/2717413/damaged-ball-bearings-blamed-for-monorail-wheel-s-fall"
+      },
+      {
+        "name": "The Nation Thailand",
+        "url": "https://www.nationthailand.com/thailand/general/40034348"
+      }
+    ]
+  },
+  {
+    "id": "scraped-songkran-001",
+    "category": "songkran",
+    "title": {
+      "en": "Songkran shooting at RCA pub Bangkok",
+      "th": "ยิงปืนสงกรานต์ที่ RCA"
+    },
+    "summary": {
+      "en": "A shooting incident at Ornic Pub during a Songkran water-splashing party in Bangkok's RCA entertainment district resulted in 8 people injured. Four were hit by stray bullets when an armed man fired shots during an altercation.",
+      "th": "เกิดเหตุยิงปืนที่บาร์ Ornic ในระหว่างปาร์ตี้สาดน้ำสงกรานต์ในย่าน RCA ทำให้มีผู้ได้รับบาดเจ็บ 8 คน โดย 4 คนถูกกระสุนโดยโครงการเล่นน้ำเมื่อชายคนหนึ่งยิงปืนในระหว่างการทะเลาะวิวาท"
+    },
+    "date": "2023-04-16",
+    "location": {
+      "en": "Ornic Pub, Royal City Avenue, Huai Khwang, Bangkok",
+      "th": "บาร์ Ornic ถนนรอยัลซิตี้เอเวนิว เขตห้วยขวาง กรุงเทพ"
+    },
+    "coordinates": [
+      100.5728,
+      13.75
+    ],
+    "radiusM": 100,
+    "severity": "injury",
+    "victims": 8,
+    "sources": [
+      {
+        "name": "Nation Thailand",
+        "url": "https://www.nationthailand.com/thailand/general/40026726"
+      },
+      {
+        "name": "Thaiger - RCA Songkran party shooting",
+        "url": "https://thethaiger.com/news/national/8-victims-injured-during-rca-songkran-party-shooting-in-bangkok"
+      },
+      {
+        "name": "Coconuts Bangkok",
+        "url": "https://coconuts.co/bangkok/news/eight-injured-in-rca-club-shooting-suspect-arrested/"
+      },
+      {
+        "name": "Thailand News",
+        "url": "https://www.thailandnews.co/2023/04/four-shot-at-a-pub-in-bangkoks-rca-nightlife-district-this-morning/"
+      }
+    ]
+  },
+  {
+    "id": "scraped2-tuktuk-001",
+    "category": "tuktuk",
+    "title": {
+      "en": "Truck collides with tuk-tuk on Yaowarat Road",
+      "th": "รถบรรทุก 10 ล้อชนตุ๊กตุ๊กบนถนนเยาวราช"
+    },
+    "summary": {
+      "en": "A 10-wheel truck veered into a tuk-tuk carrying three passengers on Yaowarat Road in Bangkok's Chinatown. One passenger was struck between the truck and tuk-tuk but sustained non-critical injuries and was able to walk away from the scene.",
+      "th": "รถบรรทุก 10 ล้อเลี้ยวชนตุ๊กตุ๊กที่บรรทุกผู้โดยสาร 3 คนบนถนนเยาวราช ผู้โดยสารคนหนึ่งถูกรถบดทับระหว่างรถบรรทุกและตุ๊กตุ๊ก บาดเจ็บเล็กน้อยแต่สามารถเดินออกจากจุดเกิดเหตุได้"
+    },
+    "date": "2025-07-08",
+    "location": {
+      "en": "Yaowarat Road, Samphanthawong District",
+      "th": "ถนนเยาวราช เขตสัมพันธวงศ์"
+    },
+    "coordinates": [
+      100.5083,
+      13.7411
+    ],
+    "radiusM": 100,
+    "severity": "injury",
+    "victims": 1,
+    "sources": [
+      {
+        "name": "Thaiger",
+        "url": "https://thethaiger.com/news/bangkok/tuk-tuk-and-truck-drivers-summoned-after-shocking-yaowarat-crash"
+      },
+      {
+        "name": "Thai News",
+        "url": "https://thai.news/news/thailand/bangkok-traffic-drama-unfolds-yaowarat-road-rage-incident-caught-on-camera"
+      }
+    ]
   }
 ]
