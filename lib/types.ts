@@ -42,6 +42,10 @@ export interface Incident {
   sources: { name: string; url: string }[];
   /** true when entry comes from the curated seed file rather than the scraper */
   seed?: boolean;
+  /** true for rare, systemic-failure events — the map's reason for existing */
+  blackSwan?: boolean;
+  /** the specific safeguards that all failed at once, one line each */
+  systemFailures?: LocalizedText[];
 }
 
 export interface CategoryMeta {
@@ -50,6 +54,8 @@ export interface CategoryMeta {
   color: string;
   /** short, deadpan one-liner shown above the character */
   tagline: LocalizedText;
+  /** groups the category under the "Black swans" section of the filter */
+  blackSwan?: boolean;
 }
 
 export type Lang = 'en' | 'th';

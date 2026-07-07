@@ -33,6 +33,11 @@ export function MissingTokenPlaceholder({ incidents }: { incidents: Incident[] }
                 <C size={56} severity={inc.severity} motionState="idle" />
               </div>
               <div className="min-w-0">
+                {inc.blackSwan ? (
+                  <span className="inline-block mb-0.5 px-1.5 py-0.5 rounded bg-dwtd-dark text-[10px] font-bold uppercase tracking-wider text-dwtd-cream">
+                    🦢
+                  </span>
+                ) : null}
                 <p className="font-display font-bold text-sm leading-tight line-clamp-2">
                   {inc.title[lang]}
                 </p>

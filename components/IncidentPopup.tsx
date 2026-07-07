@@ -19,6 +19,11 @@ export function IncidentPopup({ incident }: { incident: Incident }) {
       >
         <C size={56} severity={incident.severity} motionState="active" />
         <div className="min-w-0">
+          {incident.blackSwan ? (
+            <span className="inline-block mb-1 px-1.5 py-0.5 rounded bg-dwtd-dark text-[10px] font-bold uppercase tracking-wider text-dwtd-cream">
+              🦢 {t(STRINGS.blackSwan, lang)}
+            </span>
+          ) : null}
           <h3 className="font-display font-bold text-lg leading-tight text-dwtd-dark line-clamp-2">
             {t(incident.title, lang)}
           </h3>
@@ -31,6 +36,23 @@ export function IncidentPopup({ incident }: { incident: Incident }) {
         <p className="text-sm text-dwtd-dark/90 leading-snug">
           {t(incident.summary, lang)}
         </p>
+        {incident.systemFailures?.length ? (
+          <div className="rounded-lg border-2 border-dwtd-red/50 bg-dwtd-red/5 p-2">
+            <p className="text-[10px] font-bold uppercase tracking-wider text-dwtd-red">
+              {t(STRINGS.whatFailed, lang)}
+            </p>
+            <ul className="mt-1 space-y-1">
+              {incident.systemFailures.map((f, i) => (
+                <li key={i} className="text-xs text-dwtd-dark leading-snug flex gap-1.5">
+                  <span aria-hidden className="shrink-0 font-bold text-dwtd-red">
+                    ✗
+                  </span>
+                  {t(f, lang)}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
         <div className="flex items-center gap-2 text-xs text-dwtd-mid">
           <span
             className="px-2 py-0.5 rounded-full border border-dwtd-dark/40 font-bold"

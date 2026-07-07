@@ -15,6 +15,10 @@ export const STRINGS = {
     en: 'Showing curated seed data — run the scraper to load live incidents.',
     th: 'ข้อมูลตัวอย่าง — รันสแครปเปอร์เพื่อโหลดเหตุการณ์จริง',
   },
+  blackSwan: { en: 'Black swan', th: 'หงส์ดำ' },
+  whatFailed: { en: 'The systems that failed', th: 'ระบบที่ล้มเหลว' },
+  everydayHazards: { en: 'Everyday hazards', th: 'อันตรายในชีวิตประจำวัน' },
+  blackSwanSection: { en: 'Black swans — it all failed at once', th: 'หงส์ดำ — ทุกระบบล้มเหลวพร้อมกัน' },
   langToggleEN: { en: 'EN', th: 'EN' },
   langToggleTH: { en: 'TH', th: 'ไทย' },
   severity: {

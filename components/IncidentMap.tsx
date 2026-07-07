@@ -1,8 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { renderToStaticMarkup } from 'react-dom/server';
-import Map, { Marker, Popup, Source, Layer, NavigationControl } from 'react-map-gl';
+import Map, { Marker, Popup, Source, Layer, NavigationControl, type MapRef } from 'react-map-gl';
 import type { FeatureCollection, Feature, Polygon } from 'geojson';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
@@ -44,11 +43,38 @@ export function IncidentMap() {
   const selectedId = useApp((s) => s.selectedIncidentId);
   const setSelected = useApp((s) => s.setSelectedIncidentId);
   const [hoveredId, setHoveredId] = React.useState<string | null>(null);
+  const mapRef = React.useRef<MapRef>(null);
 
   const incidents = React.useMemo(
     () => getIncidents({ category: activeCategory ?? undefined }),
     [activeCategory],
   );
+
+  // Keep the selection reachable: some black-swan sites (Sikhio, 250 km NE)
+  // sit far outside the default Bangkok viewport.
+  React.useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+    if (!activeCategory) {
+      map.flyTo({ center: [BANGKOK_CENTER.longitude, BANGKOK_CENTER.latitude], zoom: BANGKOK_CENTER.zoom, duration: 1200 });
+      return;
+    }
+    if (incidents.length === 0) return;
+    let minLng = Infinity, minLat = Infinity, maxLng = -Infinity, maxLat = -Infinity;
+    for (const i of incidents) {
+      minLng = Math.min(minLng, i.coordinates[0]);
+      maxLng = Math.max(maxLng, i.coordinates[0]);
+      minLat = Math.min(minLat, i.coordinates[1]);
+      maxLat = Math.max(maxLat, i.coordinates[1]);
+    }
+    map.fitBounds(
+      [
+        [minLng, minLat],
+        [maxLng, maxLat],
+      ],
+      { padding: 100, maxZoom: 13, duration: 1200 },
+    );
+  }, [activeCategory, incidents]);
 
   const radiiGeoJson: FeatureCollection = React.useMemo(
     () => ({
@@ -69,6 +95,7 @@ export function IncidentMap() {
 
   return (
     <Map
+      ref={mapRef}
       mapboxAccessToken={token}
       mapStyle={style}
       initialViewState={BANGKOK_CENTER}
@@ -120,7 +147,7 @@ export function IncidentMap() {
               onBlur={() => setHoveredId((id) => (id === inc.id ? null : id))}
             >
               <C
-                size={48}
+                size={inc.blackSwan ? 60 : 48}
                 severity={inc.severity}
                 motionState={
                   hoveredId === inc.id || selectedId === inc.id ? 'active' : 'idle'
@@ -145,10 +172,4 @@ export function IncidentMap() {
       ) : null}
     </Map>
   );
-}
-
-/** Renders a character to inline SVG markup (handy for non-React map markers if needed later). */
-export function characterMarkup(category: keyof typeof CHARACTERS) {
-  const C = CHARACTERS[category];
-  return renderToStaticMarkup(<C size={48} />);
 }

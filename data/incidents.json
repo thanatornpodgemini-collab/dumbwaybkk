@@ -2,14 +2,23 @@
   {
     "id": "seed-rail-001",
     "category": "rail",
-    "title": { "en": "Slipped at Mo Chit BTS platform edge", "th": "ลื่นที่ขอบชานชาลา BTS หมอชิต" },
+    "title": {
+      "en": "Slipped at Mo Chit BTS platform edge",
+      "th": "ลื่นที่ขอบชานชาลา BTS หมอชิต"
+    },
     "summary": {
       "en": "A commuter standing past the yellow line lost balance as a train pulled in; sustained serious injuries.",
       "th": "ผู้โดยสารยืนเลยเส้นเหลืองเสียหลักขณะรถไฟกำลังเข้าสถานี ได้รับบาดเจ็บสาหัส"
     },
     "date": "2019-06-12",
-    "location": { "en": "Mo Chit BTS, Chatuchak", "th": "BTS หมอชิต เขตจตุจักร" },
-    "coordinates": [100.5530, 13.8025],
+    "location": {
+      "en": "Mo Chit BTS, Chatuchak",
+      "th": "BTS หมอชิต เขตจตุจักร"
+    },
+    "coordinates": [
+      100.553,
+      13.8025
+    ],
     "radiusM": 80,
     "severity": "injury",
     "victims": 1,
@@ -19,14 +28,23 @@
   {
     "id": "seed-rail-002",
     "category": "rail",
-    "title": { "en": "Trapped between train doors at Asok", "th": "ติดประตูรถไฟฟ้าที่อโศก" },
+    "title": {
+      "en": "Trapped between train doors at Asok",
+      "th": "ติดประตูรถไฟฟ้าที่อโศก"
+    },
     "summary": {
       "en": "Passenger forced their way through closing doors and was dragged a short distance before the train auto-stopped.",
       "th": "ผู้โดยสารฝืนแทรกประตูที่กำลังปิดและถูกลากไปสั้น ๆ ก่อนรถไฟจะหยุดอัตโนมัติ"
     },
     "date": "2021-03-04",
-    "location": { "en": "Asok BTS, Watthana", "th": "BTS อโศก เขตวัฒนา" },
-    "coordinates": [100.5602, 13.7372],
+    "location": {
+      "en": "Asok BTS, Watthana",
+      "th": "BTS อโศก เขตวัฒนา"
+    },
+    "coordinates": [
+      100.5602,
+      13.7372
+    ],
     "radiusM": 60,
     "severity": "near_miss",
     "victims": 1,
@@ -36,14 +54,23 @@
   {
     "id": "seed-motorbike-001",
     "category": "motorbike",
-    "title": { "en": "Sidesaddle passenger lost at Ratchada U-turn", "th": "ผู้ซ้อนท้ายตกที่ยูเทิร์นรัชดา" },
+    "title": {
+      "en": "Sidesaddle passenger lost at Ratchada U-turn",
+      "th": "ผู้ซ้อนท้ายตกที่ยูเทิร์นรัชดา"
+    },
     "summary": {
       "en": "Passenger riding sidesaddle with no helmet fell during a high-speed U-turn.",
       "th": "ผู้ซ้อนท้ายนั่งข้างไม่สวมหมวกกันน็อก ตกขณะกลับรถด้วยความเร็วสูง"
     },
     "date": "2018-11-22",
-    "location": { "en": "Ratchadaphisek Rd, Din Daeng", "th": "ถนนรัชดาภิเษก เขตดินแดง" },
-    "coordinates": [100.5742, 13.7693],
+    "location": {
+      "en": "Ratchadaphisek Rd, Din Daeng",
+      "th": "ถนนรัชดาภิเษก เขตดินแดง"
+    },
+    "coordinates": [
+      100.5742,
+      13.7693
+    ],
     "radiusM": 120,
     "severity": "fatal",
     "victims": 1,
@@ -53,14 +80,23 @@
   {
     "id": "seed-motorbike-002",
     "category": "motorbike",
-    "title": { "en": "Wrong-way moto on Sukhumvit 31", "th": "มอเตอร์ไซค์ย้อนศรซอยสุขุมวิท 31" },
+    "title": {
+      "en": "Wrong-way moto on Sukhumvit 31",
+      "th": "มอเตอร์ไซค์ย้อนศรซอยสุขุมวิท 31"
+    },
     "summary": {
       "en": "Rider going against traffic on a one-way soi collided with a turning car.",
       "th": "ผู้ขับขี่ย้อนศรในซอยเดินรถทางเดียวชนกับรถยนต์ที่กำลังเลี้ยว"
     },
     "date": "2022-04-19",
-    "location": { "en": "Sukhumvit Soi 31, Watthana", "th": "ซอยสุขุมวิท 31 เขตวัฒนา" },
-    "coordinates": [100.5664, 13.7402],
+    "location": {
+      "en": "Sukhumvit Soi 31, Watthana",
+      "th": "ซอยสุขุมวิท 31 เขตวัฒนา"
+    },
+    "coordinates": [
+      100.5664,
+      13.7402
+    ],
     "radiusM": 100,
     "severity": "injury",
     "victims": 2,
@@ -70,14 +106,23 @@
   {
     "id": "seed-motorbike-003",
     "category": "motorbike",
-    "title": { "en": "Phone-scrolling rider clipped a bus", "th": "ขับมอเตอร์ไซค์เล่นมือถือเฉี่ยวรถเมล์" },
+    "title": {
+      "en": "Phone-scrolling rider clipped a bus",
+      "th": "ขับมอเตอร์ไซค์เล่นมือถือเฉี่ยวรถเมล์"
+    },
     "summary": {
       "en": "Delivery rider looking at GPS on his phone clipped the side of a city bus.",
       "th": "ไรเดอร์ส่งของมองมือถือเฉี่ยวข้างรถเมล์"
     },
     "date": "2023-09-08",
-    "location": { "en": "Phaya Thai Rd, Ratchathewi", "th": "ถนนพญาไท เขตราชเทวี" },
-    "coordinates": [100.5320, 13.7563],
+    "location": {
+      "en": "Phaya Thai Rd, Ratchathewi",
+      "th": "ถนนพญาไท เขตราชเทวี"
+    },
+    "coordinates": [
+      100.532,
+      13.7563
+    ],
     "radiusM": 90,
     "severity": "injury",
     "victims": 1,
@@ -87,14 +132,23 @@
   {
     "id": "seed-klong-001",
     "category": "klong_boat",
-    "title": { "en": "Hand-in-water passenger at Pratunam pier", "th": "ผู้โดยสารจุ่มมือในน้ำที่ท่าประตูน้ำ" },
+    "title": {
+      "en": "Hand-in-water passenger at Pratunam pier",
+      "th": "ผู้โดยสารจุ่มมือในน้ำที่ท่าประตูน้ำ"
+    },
     "summary": {
       "en": "Passenger trailing a hand outside the boat caught it on a piling during docking.",
       "th": "ผู้โดยสารห้อยมือนอกเรือถูกเสาท่าเฉี่ยวขณะเรือเทียบท่า"
     },
     "date": "2017-08-30",
-    "location": { "en": "Pratunam Pier, Ratchathewi", "th": "ท่าเรือประตูน้ำ เขตราชเทวี" },
-    "coordinates": [100.5407, 13.7515],
+    "location": {
+      "en": "Pratunam Pier, Ratchathewi",
+      "th": "ท่าเรือประตูน้ำ เขตราชเทวี"
+    },
+    "coordinates": [
+      100.5407,
+      13.7515
+    ],
     "radiusM": 50,
     "severity": "injury",
     "victims": 1,
@@ -104,14 +158,23 @@
   {
     "id": "seed-klong-002",
     "category": "klong_boat",
-    "title": { "en": "Slipped on wet gangway, Saen Saep", "th": "ลื่นล้มที่สะพานข้ามคลองแสนแสบ" },
+    "title": {
+      "en": "Slipped on wet gangway, Saen Saep",
+      "th": "ลื่นล้มที่สะพานข้ามคลองแสนแสบ"
+    },
     "summary": {
       "en": "Commuter slipped while jumping from a moving boat to the pier during morning rush.",
       "th": "ผู้โดยสารลื่นล้มขณะกระโดดจากเรือลงท่าในชั่วโมงเร่งด่วนเช้า"
     },
     "date": "2020-02-14",
-    "location": { "en": "Saen Saep Canal, Bang Kapi", "th": "คลองแสนแสบ เขตบางกะปิ" },
-    "coordinates": [100.6442, 13.7669],
+    "location": {
+      "en": "Saen Saep Canal, Bang Kapi",
+      "th": "คลองแสนแสบ เขตบางกะปิ"
+    },
+    "coordinates": [
+      100.6442,
+      13.7669
+    ],
     "radiusM": 70,
     "severity": "injury",
     "victims": 1,
@@ -121,14 +184,23 @@
   {
     "id": "seed-elec-001",
     "category": "electrocution",
-    "title": { "en": "Electrocuted on flooded Lat Krabang street", "th": "ไฟดูดบนถนนน้ำท่วม ลาดกระบัง" },
+    "title": {
+      "en": "Electrocuted on flooded Lat Krabang street",
+      "th": "ไฟดูดบนถนนน้ำท่วม ลาดกระบัง"
+    },
     "summary": {
       "en": "Pedestrian wading through ankle-deep floodwater touched a leaning street lamp pole.",
       "th": "คนเดินผ่านน้ำท่วมขังสัมผัสเสาไฟฟ้าที่เอียง"
     },
     "date": "2022-08-15",
-    "location": { "en": "Lat Krabang Rd, Lat Krabang", "th": "ถนนลาดกระบัง เขตลาดกระบัง" },
-    "coordinates": [100.7732, 13.7223],
+    "location": {
+      "en": "Lat Krabang Rd, Lat Krabang",
+      "th": "ถนนลาดกระบัง เขตลาดกระบัง"
+    },
+    "coordinates": [
+      100.7732,
+      13.7223
+    ],
     "radiusM": 60,
     "severity": "fatal",
     "victims": 1,
@@ -138,14 +210,23 @@
   {
     "id": "seed-elec-002",
     "category": "electrocution",
-    "title": { "en": "Bare wire on a soi sign post", "th": "สายไฟเปลือยบนเสาป้ายซอย" },
+    "title": {
+      "en": "Bare wire on a soi sign post",
+      "th": "สายไฟเปลือยบนเสาป้ายซอย"
+    },
     "summary": {
       "en": "Delivery rider hung a helmet on a metal pole carrying a stripped wire and was shocked.",
       "th": "ไรเดอร์แขวนหมวกกันน็อกบนเสาเหล็กที่มีสายไฟเปลือยและถูกไฟดูด"
     },
     "date": "2024-07-02",
-    "location": { "en": "Soi Ari, Phaya Thai", "th": "ซอยอารีย์ เขตพญาไท" },
-    "coordinates": [100.5443, 13.7794],
+    "location": {
+      "en": "Soi Ari, Phaya Thai",
+      "th": "ซอยอารีย์ เขตพญาไท"
+    },
+    "coordinates": [
+      100.5443,
+      13.7794
+    ],
     "radiusM": 40,
     "severity": "injury",
     "victims": 1,
@@ -155,14 +236,23 @@
   {
     "id": "seed-dog-001",
     "category": "soi_dog",
-    "title": { "en": "Late-night jogger ambushed by pack", "th": "นักวิ่งกลางคืนถูกฝูงหมาซอยรุม" },
+    "title": {
+      "en": "Late-night jogger ambushed by pack",
+      "th": "นักวิ่งกลางคืนถูกฝูงหมาซอยรุม"
+    },
     "summary": {
       "en": "Runner on a 2am route was bitten by a defensive pack of strays.",
       "th": "นักวิ่งช่วงตีสองถูกฝูงหมาจรจัดกัดหลายตัว"
     },
     "date": "2021-11-08",
-    "location": { "en": "Phra Khanong canal path, Phra Khanong", "th": "เลียบคลองพระโขนง เขตพระโขนง" },
-    "coordinates": [100.6014, 13.7106],
+    "location": {
+      "en": "Phra Khanong canal path, Phra Khanong",
+      "th": "เลียบคลองพระโขนง เขตพระโขนง"
+    },
+    "coordinates": [
+      100.6014,
+      13.7106
+    ],
     "radiusM": 80,
     "severity": "injury",
     "victims": 1,
@@ -172,14 +262,23 @@
   {
     "id": "seed-dog-002",
     "category": "soi_dog",
-    "title": { "en": "Tourist tried to pet a sleeping dog", "th": "นักท่องเที่ยวลูบหมาที่กำลังหลับ" },
+    "title": {
+      "en": "Tourist tried to pet a sleeping dog",
+      "th": "นักท่องเที่ยวลูบหมาที่กำลังหลับ"
+    },
     "summary": {
       "en": "Visitor reached over a sleeping soi dog for a selfie and was bitten on the forearm.",
       "th": "นักท่องเที่ยวเอื้อมข้ามหมาที่กำลังหลับเพื่อถ่ายเซลฟี่และถูกกัดที่แขน"
     },
     "date": "2023-01-21",
-    "location": { "en": "Khao San Rd, Phra Nakhon", "th": "ถนนข้าวสาร เขตพระนคร" },
-    "coordinates": [100.4969, 13.7589],
+    "location": {
+      "en": "Khao San Rd, Phra Nakhon",
+      "th": "ถนนข้าวสาร เขตพระนคร"
+    },
+    "coordinates": [
+      100.4969,
+      13.7589
+    ],
     "radiusM": 30,
     "severity": "injury",
     "victims": 1,
@@ -189,14 +288,23 @@
   {
     "id": "seed-billboard-001",
     "category": "billboard",
-    "title": { "en": "Billboard collapsed during squall", "th": "ป้ายโฆษณาล้มในพายุฝน" },
+    "title": {
+      "en": "Billboard collapsed during squall",
+      "th": "ป้ายโฆษณาล้มในพายุฝน"
+    },
     "summary": {
       "en": "Large roadside billboard fell onto parked motorcycles during a heavy squall.",
       "th": "ป้ายโฆษณาขนาดใหญ่ริมถนนล้มทับมอเตอร์ไซค์ที่จอดอยู่ระหว่างพายุฝน"
     },
     "date": "2019-05-29",
-    "location": { "en": "Rama IX Rd, Huai Khwang", "th": "ถนนพระราม 9 เขตห้วยขวาง" },
-    "coordinates": [100.5662, 13.7530],
+    "location": {
+      "en": "Rama IX Rd, Huai Khwang",
+      "th": "ถนนพระราม 9 เขตห้วยขวาง"
+    },
+    "coordinates": [
+      100.5662,
+      13.753
+    ],
     "radiusM": 80,
     "severity": "injury",
     "victims": 3,
@@ -206,14 +314,23 @@
   {
     "id": "seed-billboard-002",
     "category": "billboard",
-    "title": { "en": "Sign sheet tore off in wind gust", "th": "แผ่นป้ายปลิวในลมกระโชก" },
+    "title": {
+      "en": "Sign sheet tore off in wind gust",
+      "th": "แผ่นป้ายปลิวในลมกระโชก"
+    },
     "summary": {
       "en": "Metal sign sheet detached from a building and struck a pedestrian on the sidewalk.",
       "th": "แผ่นโลหะหลุดจากอาคารปลิวลงมาฟาดคนเดินเท้า"
     },
     "date": "2024-10-11",
-    "location": { "en": "Silom Rd, Bang Rak", "th": "ถนนสีลม เขตบางรัก" },
-    "coordinates": [100.5274, 13.7282],
+    "location": {
+      "en": "Silom Rd, Bang Rak",
+      "th": "ถนนสีลม เขตบางรัก"
+    },
+    "coordinates": [
+      100.5274,
+      13.7282
+    ],
     "radiusM": 50,
     "severity": "injury",
     "victims": 1,
@@ -223,14 +340,23 @@
   {
     "id": "seed-construction-001",
     "category": "construction",
-    "title": { "en": "Falling debris from skytrain pier work", "th": "เศษวัสดุร่วงจากงานสร้างทางรถไฟฟ้า" },
+    "title": {
+      "en": "Falling debris from skytrain pier work",
+      "th": "เศษวัสดุร่วงจากงานสร้างทางรถไฟฟ้า"
+    },
     "summary": {
       "en": "Loose construction material fell onto the road below an unfinished elevated track section.",
       "th": "วัสดุก่อสร้างหล่นลงถนนใต้แนวรางรถไฟฟ้าที่ยังก่อสร้างไม่เสร็จ"
     },
     "date": "2023-07-10",
-    "location": { "en": "Lat Phrao Rd, Wang Thonglang", "th": "ถนนลาดพร้าว เขตวังทองหลาง" },
-    "coordinates": [100.6010, 13.7976],
+    "location": {
+      "en": "Lat Phrao Rd, Wang Thonglang",
+      "th": "ถนนลาดพร้าว เขตวังทองหลาง"
+    },
+    "coordinates": [
+      100.601,
+      13.7976
+    ],
     "radiusM": 100,
     "severity": "injury",
     "victims": 2,
@@ -240,14 +366,23 @@
   {
     "id": "seed-construction-002",
     "category": "construction",
-    "title": { "en": "Open manhole on a dark side soi", "th": "ฝาท่อเปิดในซอยมืด" },
+    "title": {
+      "en": "Open manhole on a dark side soi",
+      "th": "ฝาท่อเปิดในซอยมืด"
+    },
     "summary": {
       "en": "Pedestrian fell into an unmarked open manhole left by overnight contractors.",
       "th": "คนเดินถนนตกฝาท่อที่เปิดทิ้งไว้โดยไม่มีป้ายเตือน"
     },
     "date": "2020-09-17",
-    "location": { "en": "Soi Sukhumvit 71, Watthana", "th": "ซอยสุขุมวิท 71 เขตวัฒนา" },
-    "coordinates": [100.5870, 13.7236],
+    "location": {
+      "en": "Soi Sukhumvit 71, Watthana",
+      "th": "ซอยสุขุมวิท 71 เขตวัฒนา"
+    },
+    "coordinates": [
+      100.587,
+      13.7236
+    ],
     "radiusM": 30,
     "severity": "injury",
     "victims": 1,
@@ -257,14 +392,23 @@
   {
     "id": "seed-construction-003",
     "category": "construction",
-    "title": { "en": "Crane swing arm struck rooftop", "th": "แขนเครนเหวี่ยงโดนหลังคา" },
+    "title": {
+      "en": "Crane swing arm struck rooftop",
+      "th": "แขนเครนเหวี่ยงโดนหลังคา"
+    },
     "summary": {
       "en": "Tower crane swing arm hit a neighboring rooftop during a storm, sending tiles down.",
       "th": "แขนเครนก่อสร้างเหวี่ยงโดนหลังคาบ้านข้างเคียงตอนพายุ ทำให้กระเบื้องร่วง"
     },
     "date": "2022-06-04",
-    "location": { "en": "Rama III Rd, Yan Nawa", "th": "ถนนพระราม 3 เขตยานนาวา" },
-    "coordinates": [100.5274, 13.6924],
+    "location": {
+      "en": "Rama III Rd, Yan Nawa",
+      "th": "ถนนพระราม 3 เขตยานนาวา"
+    },
+    "coordinates": [
+      100.5274,
+      13.6924
+    ],
     "radiusM": 120,
     "severity": "near_miss",
     "victims": 0,
@@ -274,14 +418,23 @@
   {
     "id": "seed-songkran-001",
     "category": "songkran",
-    "title": { "en": "Fell off pickup bed dancing", "th": "ตกจากกระบะเพราะเต้น" },
+    "title": {
+      "en": "Fell off pickup bed dancing",
+      "th": "ตกจากกระบะเพราะเต้น"
+    },
     "summary": {
       "en": "Revellers riding standing in a pickup truck bed fell during a sharp turn.",
       "th": "ผู้เล่นน้ำที่ยืนบนกระบะตกลงจากรถขณะเลี้ยวกะทันหัน"
     },
     "date": "2019-04-14",
-    "location": { "en": "Silom Rd, Bang Rak", "th": "ถนนสีลม เขตบางรัก" },
-    "coordinates": [100.5314, 13.7256],
+    "location": {
+      "en": "Silom Rd, Bang Rak",
+      "th": "ถนนสีลม เขตบางรัก"
+    },
+    "coordinates": [
+      100.5314,
+      13.7256
+    ],
     "radiusM": 200,
     "severity": "injury",
     "victims": 2,
@@ -291,14 +444,23 @@
   {
     "id": "seed-songkran-002",
     "category": "songkran",
-    "title": { "en": "Water-soaked extension cord shock", "th": "ไฟดูดจากปลั๊กพ่วงโดนน้ำ" },
+    "title": {
+      "en": "Water-soaked extension cord shock",
+      "th": "ไฟดูดจากปลั๊กพ่วงโดนน้ำ"
+    },
     "summary": {
       "en": "An outdoor sound system extension cord got soaked during a water fight and shocked a partygoer.",
       "th": "ปลั๊กพ่วงเครื่องเสียงกลางแจ้งโดนน้ำ ทำให้ผู้เล่นน้ำถูกไฟดูด"
     },
     "date": "2023-04-13",
-    "location": { "en": "Khao San Rd, Phra Nakhon", "th": "ถนนข้าวสาร เขตพระนคร" },
-    "coordinates": [100.4969, 13.7589],
+    "location": {
+      "en": "Khao San Rd, Phra Nakhon",
+      "th": "ถนนข้าวสาร เขตพระนคร"
+    },
+    "coordinates": [
+      100.4969,
+      13.7589
+    ],
     "radiusM": 60,
     "severity": "injury",
     "victims": 1,
@@ -308,14 +470,23 @@
   {
     "id": "seed-songkran-003",
     "category": "songkran",
-    "title": { "en": "Drunk driver into water-fight crowd", "th": "เมาแล้วขับชนผู้เล่นน้ำ" },
+    "title": {
+      "en": "Drunk driver into water-fight crowd",
+      "th": "เมาแล้วขับชนผู้เล่นน้ำ"
+    },
     "summary": {
       "en": "Intoxicated driver lost control near a busy Songkran block party.",
       "th": "ผู้ขับขี่เมาเสียการควบคุมใกล้พื้นที่เล่นน้ำสงกรานต์"
     },
     "date": "2018-04-15",
-    "location": { "en": "RCA, Huai Khwang", "th": "RCA เขตห้วยขวาง" },
-    "coordinates": [100.5742, 13.7474],
+    "location": {
+      "en": "RCA, Huai Khwang",
+      "th": "RCA เขตห้วยขวาง"
+    },
+    "coordinates": [
+      100.5742,
+      13.7474
+    ],
     "radiusM": 150,
     "severity": "fatal",
     "victims": 4,
@@ -325,14 +496,23 @@
   {
     "id": "seed-pollution-001",
     "category": "pollution",
-    "title": { "en": "Outdoor sprints at AQI 280", "th": "วิ่งกลางแจ้งตอนค่าฝุ่น 280" },
+    "title": {
+      "en": "Outdoor sprints at AQI 280",
+      "th": "วิ่งกลางแจ้งตอนค่าฝุ่น 280"
+    },
     "summary": {
       "en": "Recreational runner did interval sprints during a red-level PM2.5 advisory and collapsed.",
       "th": "นักวิ่งสมัครเล่นวิ่งซ้อมความเร็วช่วงฝุ่น PM2.5 ระดับสีแดงและเป็นลม"
     },
     "date": "2024-02-03",
-    "location": { "en": "Lumphini Park, Pathum Wan", "th": "สวนลุมพินี เขตปทุมวัน" },
-    "coordinates": [100.5418, 13.7307],
+    "location": {
+      "en": "Lumphini Park, Pathum Wan",
+      "th": "สวนลุมพินี เขตปทุมวัน"
+    },
+    "coordinates": [
+      100.5418,
+      13.7307
+    ],
     "radiusM": 250,
     "severity": "injury",
     "victims": 1,
@@ -342,14 +522,23 @@
   {
     "id": "seed-pollution-002",
     "category": "pollution",
-    "title": { "en": "Outdoor school sports day during haze", "th": "กีฬาสีกลางแจ้งช่วงฝุ่น" },
+    "title": {
+      "en": "Outdoor school sports day during haze",
+      "th": "กีฬาสีกลางแจ้งช่วงฝุ่น"
+    },
     "summary": {
       "en": "Multiple students hospitalised for respiratory issues after an outdoor field day during a haze event.",
       "th": "นักเรียนหลายคนเข้าโรงพยาบาลด้วยอาการทางเดินหายใจหลังกีฬาสีในช่วงฝุ่นปกคลุม"
     },
     "date": "2020-01-21",
-    "location": { "en": "Bang Na", "th": "เขตบางนา" },
-    "coordinates": [100.6047, 13.6680],
+    "location": {
+      "en": "Bang Na",
+      "th": "เขตบางนา"
+    },
+    "coordinates": [
+      100.6047,
+      13.668
+    ],
     "radiusM": 500,
     "severity": "injury",
     "victims": 12,
@@ -359,14 +548,23 @@
   {
     "id": "seed-tuktuk-001",
     "category": "tuktuk",
-    "title": { "en": "Hanging out tuk-tuk for video", "th": "โหนตุ๊ก ๆ ถ่ายคลิป" },
+    "title": {
+      "en": "Hanging out tuk-tuk for video",
+      "th": "โหนตุ๊ก ๆ ถ่ายคลิป"
+    },
     "summary": {
       "en": "Tourist leaning out of a moving tuk-tuk to film clipped a side mirror of a passing taxi.",
       "th": "นักท่องเที่ยวโน้มตัวออกตุ๊ก ๆ ขณะวิ่งเฉี่ยวกระจกข้างแท็กซี่"
     },
     "date": "2022-12-09",
-    "location": { "en": "Yaowarat Rd, Samphanthawong", "th": "ถนนเยาวราช เขตสัมพันธวงศ์" },
-    "coordinates": [100.5095, 13.7406],
+    "location": {
+      "en": "Yaowarat Rd, Samphanthawong",
+      "th": "ถนนเยาวราช เขตสัมพันธวงศ์"
+    },
+    "coordinates": [
+      100.5095,
+      13.7406
+    ],
     "radiusM": 70,
     "severity": "injury",
     "victims": 1,
@@ -376,14 +574,23 @@
   {
     "id": "seed-tuktuk-002",
     "category": "tuktuk",
-    "title": { "en": "Tuk-tuk flipped on tight turn", "th": "ตุ๊ก ๆ คว่ำที่โค้งแคบ" },
+    "title": {
+      "en": "Tuk-tuk flipped on tight turn",
+      "th": "ตุ๊ก ๆ คว่ำที่โค้งแคบ"
+    },
     "summary": {
       "en": "Three-wheeler took a corner too fast near a tourist market and tipped.",
       "th": "ตุ๊ก ๆ เลี้ยวเร็วใกล้ตลาดท่องเที่ยวจนพลิกตะแคง"
     },
     "date": "2017-12-31",
-    "location": { "en": "Tha Phra Chan, Phra Nakhon", "th": "ท่าพระจันทร์ เขตพระนคร" },
-    "coordinates": [100.4922, 13.7568],
+    "location": {
+      "en": "Tha Phra Chan, Phra Nakhon",
+      "th": "ท่าพระจันทร์ เขตพระนคร"
+    },
+    "coordinates": [
+      100.4922,
+      13.7568
+    ],
     "radiusM": 50,
     "severity": "injury",
     "victims": 2,
@@ -393,14 +600,23 @@
   {
     "id": "seed-food-001",
     "category": "street_food",
-    "title": { "en": "Leaking gas cylinder fire", "th": "ไฟไหม้จากถังแก๊สรั่ว" },
+    "title": {
+      "en": "Leaking gas cylinder fire",
+      "th": "ไฟไหม้จากถังแก๊สรั่ว"
+    },
     "summary": {
       "en": "Street food cart gas cylinder leaked beside an open flame, igniting a small fire.",
       "th": "ถังแก๊สรถเข็นรั่วใกล้เตาไฟทำให้เกิดเพลิงไหม้เล็ก"
     },
     "date": "2021-07-22",
-    "location": { "en": "Pratunam Market, Ratchathewi", "th": "ตลาดประตูน้ำ เขตราชเทวี" },
-    "coordinates": [100.5407, 13.7510],
+    "location": {
+      "en": "Pratunam Market, Ratchathewi",
+      "th": "ตลาดประตูน้ำ เขตราชเทวี"
+    },
+    "coordinates": [
+      100.5407,
+      13.751
+    ],
     "radiusM": 50,
     "severity": "injury",
     "victims": 2,
@@ -410,14 +626,23 @@
   {
     "id": "seed-food-002",
     "category": "street_food",
-    "title": { "en": "Hot oil splash from pad krapao wok", "th": "น้ำมันร้อนกระเด็นจากกระทะผัดกะเพรา" },
+    "title": {
+      "en": "Hot oil splash from pad krapao wok",
+      "th": "น้ำมันร้อนกระเด็นจากกระทะผัดกะเพรา"
+    },
     "summary": {
       "en": "Customer reached over a hot wok and a splash of oil caused second-degree burns.",
       "th": "ลูกค้าเอื้อมข้ามกระทะร้อน น้ำมันกระเด็นโดนแขนทำให้เกิดแผลพุพอง"
     },
     "date": "2023-06-04",
-    "location": { "en": "Or Tor Kor Market, Chatuchak", "th": "ตลาด อ.ต.ก. เขตจตุจักร" },
-    "coordinates": [100.5535, 13.8054],
+    "location": {
+      "en": "Or Tor Kor Market, Chatuchak",
+      "th": "ตลาด อ.ต.ก. เขตจตุจักร"
+    },
+    "coordinates": [
+      100.5535,
+      13.8054
+    ],
     "radiusM": 30,
     "severity": "injury",
     "victims": 1,
@@ -427,14 +652,23 @@
   {
     "id": "seed-food-003",
     "category": "street_food",
-    "title": { "en": "Skewer fell on a child", "th": "ไม้เสียบกระเด็นโดนเด็ก" },
+    "title": {
+      "en": "Skewer fell on a child",
+      "th": "ไม้เสียบกระเด็นโดนเด็ก"
+    },
     "summary": {
       "en": "Hot grilled skewer fell off a vendor cart and struck a passing child on the leg.",
       "th": "ไม้เสียบย่างร้อนหล่นจากรถเข็นโดนขาเด็กที่เดินผ่าน"
     },
     "date": "2018-08-19",
-    "location": { "en": "Chinatown, Samphanthawong", "th": "ไชน่าทาวน์ เขตสัมพันธวงศ์" },
-    "coordinates": [100.5128, 13.7409],
+    "location": {
+      "en": "Chinatown, Samphanthawong",
+      "th": "ไชน่าทาวน์ เขตสัมพันธวงศ์"
+    },
+    "coordinates": [
+      100.5128,
+      13.7409
+    ],
     "radiusM": 20,
     "severity": "injury",
     "victims": 1,
@@ -444,14 +678,23 @@
   {
     "id": "seed-flood-001",
     "category": "flood",
-    "title": { "en": "Sinkhole opened under floodwater", "th": "หลุมยุบใต้น้ำท่วม" },
+    "title": {
+      "en": "Sinkhole opened under floodwater",
+      "th": "หลุมยุบใต้น้ำท่วม"
+    },
     "summary": {
       "en": "Driver crossing a flooded intersection drove into a hidden sinkhole.",
       "th": "ผู้ขับขี่ลุยน้ำท่วมแล้วตกหลุมยุบที่ซ่อนใต้ผิวน้ำ"
     },
     "date": "2017-10-14",
-    "location": { "en": "Bang Sue", "th": "เขตบางซื่อ" },
-    "coordinates": [100.5378, 13.8082],
+    "location": {
+      "en": "Bang Sue",
+      "th": "เขตบางซื่อ"
+    },
+    "coordinates": [
+      100.5378,
+      13.8082
+    ],
     "radiusM": 40,
     "severity": "injury",
     "victims": 1,
@@ -461,14 +704,23 @@
   {
     "id": "seed-flood-002",
     "category": "flood",
-    "title": { "en": "Stalled car in deep water at Asoke", "th": "รถจอดดับกลางน้ำลึกที่อโศก" },
+    "title": {
+      "en": "Stalled car in deep water at Asoke",
+      "th": "รถจอดดับกลางน้ำลึกที่อโศก"
+    },
     "summary": {
       "en": "Driver tried to ford waist-deep water and the car shorted out mid-intersection.",
       "th": "ผู้ขับขี่ลุยน้ำลึกระดับเอวจนรถลัดวงจรกลางสี่แยก"
     },
     "date": "2022-09-08",
-    "location": { "en": "Asok-Sukhumvit, Watthana", "th": "แยกอโศก-สุขุมวิท เขตวัฒนา" },
-    "coordinates": [100.5605, 13.7368],
+    "location": {
+      "en": "Asok-Sukhumvit, Watthana",
+      "th": "แยกอโศก-สุขุมวิท เขตวัฒนา"
+    },
+    "coordinates": [
+      100.5605,
+      13.7368
+    ],
     "radiusM": 150,
     "severity": "near_miss",
     "victims": 1,
@@ -478,14 +730,23 @@
   {
     "id": "seed-flood-003",
     "category": "flood",
-    "title": { "en": "Jet ski on flooded Sukhumvit", "th": "เจ็ตสกีบนถนนสุขุมวิทตอนน้ำท่วม" },
+    "title": {
+      "en": "Jet ski on flooded Sukhumvit",
+      "th": "เจ็ตสกีบนถนนสุขุมวิทตอนน้ำท่วม"
+    },
     "summary": {
       "en": "Stunt with a jet ski on a flooded thoroughfare collided with a parked food cart.",
       "th": "การเล่นเจ็ตสกีบนถนนน้ำท่วมชนกับรถเข็นขายอาหารที่จอดอยู่"
     },
     "date": "2024-09-19",
-    "location": { "en": "Sukhumvit Rd, Watthana", "th": "ถนนสุขุมวิท เขตวัฒนา" },
-    "coordinates": [100.5660, 13.7395],
+    "location": {
+      "en": "Sukhumvit Rd, Watthana",
+      "th": "ถนนสุขุมวิท เขตวัฒนา"
+    },
+    "coordinates": [
+      100.566,
+      13.7395
+    ],
     "radiusM": 120,
     "severity": "injury",
     "victims": 2,
@@ -495,14 +756,23 @@
   {
     "id": "seed-rail-003",
     "category": "rail",
-    "title": { "en": "Escalator slip at Siam interchange", "th": "ลื่นบนบันไดเลื่อนที่สยาม" },
+    "title": {
+      "en": "Escalator slip at Siam interchange",
+      "th": "ลื่นบนบันไดเลื่อนที่สยาม"
+    },
     "summary": {
       "en": "Commuter ran down an upward-moving escalator at the Siam interchange and fell.",
       "th": "ผู้โดยสารวิ่งสวนทางบันไดเลื่อนขึ้นที่สถานีสยามและล้ม"
     },
     "date": "2018-02-26",
-    "location": { "en": "Siam BTS, Pathum Wan", "th": "BTS สยาม เขตปทุมวัน" },
-    "coordinates": [100.5340, 13.7456],
+    "location": {
+      "en": "Siam BTS, Pathum Wan",
+      "th": "BTS สยาม เขตปทุมวัน"
+    },
+    "coordinates": [
+      100.534,
+      13.7456
+    ],
     "radiusM": 40,
     "severity": "injury",
     "victims": 1,
@@ -512,14 +782,23 @@
   {
     "id": "seed-motorbike-004",
     "category": "motorbike",
-    "title": { "en": "Helmetless rider on expressway shoulder", "th": "มอเตอร์ไซค์ไม่ใส่หมวกบนไหล่ทางด่วน" },
+    "title": {
+      "en": "Helmetless rider on expressway shoulder",
+      "th": "มอเตอร์ไซค์ไม่ใส่หมวกบนไหล่ทางด่วน"
+    },
     "summary": {
       "en": "Rider used a closed expressway shoulder as a shortcut and struck a barrier.",
       "th": "ผู้ขับขี่ใช้ไหล่ทางด่วนเป็นทางลัดและชนกำแพงกั้น"
     },
     "date": "2016-05-30",
-    "location": { "en": "Si Rat Expressway, Khlong Toei", "th": "ทางด่วนศรีรัช เขตคลองเตย" },
-    "coordinates": [100.5566, 13.7194],
+    "location": {
+      "en": "Si Rat Expressway, Khlong Toei",
+      "th": "ทางด่วนศรีรัช เขตคลองเตย"
+    },
+    "coordinates": [
+      100.5566,
+      13.7194
+    ],
     "radiusM": 100,
     "severity": "fatal",
     "victims": 1,
@@ -529,14 +808,23 @@
   {
     "id": "seed-elec-003",
     "category": "electrocution",
-    "title": { "en": "Wet bus stop sign shock", "th": "ป้ายรถเมล์เปียกไฟดูด" },
+    "title": {
+      "en": "Wet bus stop sign shock",
+      "th": "ป้ายรถเมล์เปียกไฟดูด"
+    },
     "summary": {
       "en": "Metal bus stop pole became live during rain due to a frayed nearby cable.",
       "th": "เสาป้ายรถเมล์โลหะกลายเป็นตัวนำไฟฟ้าตอนฝนตกเพราะสายไฟใกล้ขาด"
     },
     "date": "2019-09-27",
-    "location": { "en": "Phaholyothin Rd, Bang Khen", "th": "ถนนพหลโยธิน เขตบางเขน" },
-    "coordinates": [100.5957, 13.8753],
+    "location": {
+      "en": "Phaholyothin Rd, Bang Khen",
+      "th": "ถนนพหลโยธิน เขตบางเขน"
+    },
+    "coordinates": [
+      100.5957,
+      13.8753
+    ],
     "radiusM": 30,
     "severity": "injury",
     "victims": 1,
@@ -546,14 +834,23 @@
   {
     "id": "seed-dog-003",
     "category": "soi_dog",
-    "title": { "en": "Cyclist chased into traffic", "th": "นักปั่นถูกหมาไล่ออกถนนใหญ่" },
+    "title": {
+      "en": "Cyclist chased into traffic",
+      "th": "นักปั่นถูกหมาไล่ออกถนนใหญ่"
+    },
     "summary": {
       "en": "Cyclist swerved into a car lane after being chased by stray dogs on a service road.",
       "th": "นักปั่นจักรยานเบี่ยงเข้าช่องรถยนต์เพราะถูกหมาจรไล่บนทางคู่ขนาน"
     },
     "date": "2024-03-14",
-    "location": { "en": "Vibhavadi Rangsit Rd, Don Mueang", "th": "ถนนวิภาวดีรังสิต เขตดอนเมือง" },
-    "coordinates": [100.5912, 13.9170],
+    "location": {
+      "en": "Vibhavadi Rangsit Rd, Don Mueang",
+      "th": "ถนนวิภาวดีรังสิต เขตดอนเมือง"
+    },
+    "coordinates": [
+      100.5912,
+      13.917
+    ],
     "radiusM": 80,
     "severity": "injury",
     "victims": 1,
@@ -563,14 +860,23 @@
   {
     "id": "seed-billboard-003",
     "category": "billboard",
-    "title": { "en": "Banner snapped a power line", "th": "ป้ายผ้าฟาดสายไฟขาด" },
+    "title": {
+      "en": "Banner snapped a power line",
+      "th": "ป้ายผ้าฟาดสายไฟขาด"
+    },
     "summary": {
       "en": "Loose election banner whipped in the wind and pulled down an overhead power line.",
       "th": "ป้ายผ้าหาเสียงปลิวในลมแล้วฟาดสายไฟขาดลงมา"
     },
     "date": "2023-05-08",
-    "location": { "en": "Lat Phrao Rd, Lat Phrao", "th": "ถนนลาดพร้าว เขตลาดพร้าว" },
-    "coordinates": [100.6225, 13.8079],
+    "location": {
+      "en": "Lat Phrao Rd, Lat Phrao",
+      "th": "ถนนลาดพร้าว เขตลาดพร้าว"
+    },
+    "coordinates": [
+      100.6225,
+      13.8079
+    ],
     "radiusM": 60,
     "severity": "near_miss",
     "victims": 0,
@@ -580,14 +886,23 @@
   {
     "id": "seed-construction-004",
     "category": "construction",
-    "title": { "en": "Scaffolding collapse on side street", "th": "นั่งร้านถล่มในซอย" },
+    "title": {
+      "en": "Scaffolding collapse on side street",
+      "th": "นั่งร้านถล่มในซอย"
+    },
     "summary": {
       "en": "Bamboo-and-steel scaffolding for a building facade gave way after recent rain.",
       "th": "นั่งร้านไม้ไผ่ผสมเหล็กของอาคารถล่มหลังฝนตก"
     },
     "date": "2021-10-05",
-    "location": { "en": "Soi Sathorn 10, Sathorn", "th": "ซอยสาทร 10 เขตสาทร" },
-    "coordinates": [100.5285, 13.7220],
+    "location": {
+      "en": "Soi Sathorn 10, Sathorn",
+      "th": "ซอยสาทร 10 เขตสาทร"
+    },
+    "coordinates": [
+      100.5285,
+      13.722
+    ],
     "radiusM": 80,
     "severity": "injury",
     "victims": 3,
@@ -597,14 +912,23 @@
   {
     "id": "seed-flood-004",
     "category": "flood",
-    "title": { "en": "Drain grate sucked at an ankle", "th": "ตะแกรงท่อดูดข้อเท้า" },
+    "title": {
+      "en": "Drain grate sucked at an ankle",
+      "th": "ตะแกรงท่อดูดข้อเท้า"
+    },
     "summary": {
       "en": "Pedestrian walking in flooded street caught a foot in a dislodged drain grate.",
       "th": "คนเดินผ่านน้ำท่วมเท้าติดตะแกรงท่อระบายที่หลุดออก"
     },
     "date": "2020-10-13",
-    "location": { "en": "Charoen Krung, Bang Rak", "th": "ถนนเจริญกรุง เขตบางรัก" },
-    "coordinates": [100.5168, 13.7257],
+    "location": {
+      "en": "Charoen Krung, Bang Rak",
+      "th": "ถนนเจริญกรุง เขตบางรัก"
+    },
+    "coordinates": [
+      100.5168,
+      13.7257
+    ],
     "radiusM": 40,
     "severity": "injury",
     "victims": 1,
@@ -614,14 +938,23 @@
   {
     "id": "seed-pollution-003",
     "category": "pollution",
-    "title": { "en": "Outdoor wedding during burn-season haze", "th": "งานแต่งกลางแจ้งช่วงฤดูเผา" },
+    "title": {
+      "en": "Outdoor wedding during burn-season haze",
+      "th": "งานแต่งกลางแจ้งช่วงฤดูเผา"
+    },
     "summary": {
       "en": "Guests at an outdoor reception suffered respiratory distress as PM2.5 spiked overnight.",
       "th": "แขกในงานเลี้ยงกลางแจ้งมีอาการระบบหายใจเมื่อค่าฝุ่นพุ่งกลางคืน"
     },
     "date": "2024-03-22",
-    "location": { "en": "Bang Khun Thian", "th": "เขตบางขุนเทียน" },
-    "coordinates": [100.4347, 13.6606],
+    "location": {
+      "en": "Bang Khun Thian",
+      "th": "เขตบางขุนเทียน"
+    },
+    "coordinates": [
+      100.4347,
+      13.6606
+    ],
     "radiusM": 400,
     "severity": "injury",
     "victims": 6,
@@ -631,14 +964,23 @@
   {
     "id": "seed-klong-003",
     "category": "klong_boat",
-    "title": { "en": "Boat engine cover burnt a passenger", "th": "ฝาเครื่องยนต์เรือลวกผู้โดยสาร" },
+    "title": {
+      "en": "Boat engine cover burnt a passenger",
+      "th": "ฝาเครื่องยนต์เรือลวกผู้โดยสาร"
+    },
     "summary": {
       "en": "Passenger leaned against an uninsulated engine cover and sustained a contact burn.",
       "th": "ผู้โดยสารพิงฝาเครื่องยนต์ที่ไม่มีฉนวนกันความร้อนจนผิวไหม้"
     },
     "date": "2018-06-11",
-    "location": { "en": "Saen Saep Canal, Watthana", "th": "คลองแสนแสบ เขตวัฒนา" },
-    "coordinates": [100.5752, 13.7430],
+    "location": {
+      "en": "Saen Saep Canal, Watthana",
+      "th": "คลองแสนแสบ เขตวัฒนา"
+    },
+    "coordinates": [
+      100.5752,
+      13.743
+    ],
     "radiusM": 50,
     "severity": "injury",
     "victims": 1,
@@ -648,14 +990,23 @@
   {
     "id": "seed-tuktuk-003",
     "category": "tuktuk",
-    "title": { "en": "Tuk-tuk u-turned into oncoming bike", "th": "ตุ๊ก ๆ กลับรถชนจักรยานยนต์" },
+    "title": {
+      "en": "Tuk-tuk u-turned into oncoming bike",
+      "th": "ตุ๊ก ๆ กลับรถชนจักรยานยนต์"
+    },
     "summary": {
       "en": "Driver attempted a tight U-turn across two lanes and was clipped by an approaching motorcycle.",
       "th": "คนขับตุ๊ก ๆ กลับรถข้ามสองเลนถูกมอเตอร์ไซค์ที่วิ่งมาเฉี่ยว"
     },
     "date": "2019-11-30",
-    "location": { "en": "Sukhumvit Soi 11, Khlong Toei", "th": "ซอยสุขุมวิท 11 เขตคลองเตย" },
-    "coordinates": [100.5594, 13.7423],
+    "location": {
+      "en": "Sukhumvit Soi 11, Khlong Toei",
+      "th": "ซอยสุขุมวิท 11 เขตคลองเตย"
+    },
+    "coordinates": [
+      100.5594,
+      13.7423
+    ],
     "radiusM": 70,
     "severity": "injury",
     "victims": 2,
@@ -665,93 +1016,234 @@
   {
     "id": "real-bts-psd-001",
     "category": "bts_psd",
-    "title": { "en": "Woman fainted onto BTS tracks, Wongwian Yai", "th": "หญิงหมดสติตกลงรางรถไฟฟ้า สถานีวงเวียนใหญ่" },
+    "title": {
+      "en": "Woman fainted onto BTS tracks, Wongwian Yai",
+      "th": "หญิงหมดสติตกลงรางรถไฟฟ้า สถานีวงเวียนใหญ่"
+    },
     "summary": {
       "en": "A passenger fainted and fell from the platform onto the live tracks at Wongwian Yai station. A bystander alerted staff who halted trains in time. There are no platform screen doors at this station — a safety gap that has existed since the line opened.",
       "th": "ผู้โดยสารหมดสติพลัดตกจากชานชาลาลงบนรางรถไฟที่ยังมีไฟฟ้าวิ่ง ที่สถานีวงเวียนใหญ่ ผู้พบเห็นแจ้งเจ้าหน้าที่หยุดรถไฟทันเวลา ไม่มีประตูกั้นชานชาลาในสถานีนี้ตั้งแต่เปิดให้บริการ"
     },
     "date": "2023-03-01",
-    "location": { "en": "Wongwian Yai BTS Station, Thon Buri", "th": "สถานี BTS วงเวียนใหญ่ เขตธนบุรี" },
-    "coordinates": [100.4749, 13.7198],
+    "location": {
+      "en": "Wongwian Yai BTS Station, Thon Buri",
+      "th": "สถานี BTS วงเวียนใหญ่ เขตธนบุรี"
+    },
+    "coordinates": [
+      100.4749,
+      13.7198
+    ],
     "radiusM": 50,
     "severity": "near_miss",
     "victims": 1,
     "sources": [
-      { "name": "The Thaiger", "url": "https://thethaiger.com/news/bangkok/woman-faints-and-falls-onto-tracks-at-bangkok-bts-station" }
+      {
+        "name": "The Thaiger",
+        "url": "https://thethaiger.com/news/bangkok/woman-faints-and-falls-onto-tracks-at-bangkok-bts-station"
+      }
+    ],
+    "blackSwan": true,
+    "systemFailures": [
+      {
+        "en": "No platform screen doors — nothing between a fainting passenger and live tracks",
+        "th": "ไม่มีประตูกั้นชานชาลา — ไม่มีอะไรกั้นระหว่างผู้โดยสารหมดสติกับรางไฟฟ้า"
+      },
+      {
+        "en": "No fall-detection sensor on the platform edge — a bystander's shout was the alarm",
+        "th": "ไม่มีเซ็นเซอร์ตรวจจับการตกที่ขอบชานชาลา — เสียงตะโกนของคนแถวนั้นคือสัญญาณเตือน"
+      },
+      {
+        "en": "Train stopped by human reaction time alone, not by any automatic system",
+        "th": "รถไฟหยุดได้ด้วยปฏิกิริยาของคนล้วน ๆ ไม่ใช่ระบบอัตโนมัติ"
+      }
     ]
   },
   {
     "id": "real-bts-psd-002",
     "category": "bts_psd",
-    "title": { "en": "Woman fainted and was hit by incoming BTS train, Mo Chit", "th": "หญิงหมดสติถูกรถไฟฟ้าชน สถานีหมอชิต" },
+    "title": {
+      "en": "Woman fainted and was hit by incoming BTS train, Mo Chit",
+      "th": "หญิงหมดสติถูกรถไฟฟ้าชน สถานีหมอชิต"
+    },
     "summary": {
       "en": "A passenger fainted and fell as a train entered Mo Chit station, and was struck by the front of the train. No platform screen doors. Services halted briefly. Had PSDs been installed — standard on every comparable metro in Southeast Asia — this incident could not have happened.",
       "th": "ผู้โดยสารหมดสติล้มลงขณะรถไฟแล่นเข้าสถานีหมอชิต ถูกหน้าขบวนชน ไม่มีประตูกั้นชานชาลา หยุดให้บริการชั่วคราว หากติดตั้งประตูกั้นชานชาลาซึ่งเป็นมาตรฐานของระบบรถไฟใต้ดินทุกแห่งในเอเชียตะวันออกเฉียงใต้ เหตุการณ์นี้จะไม่เกิดขึ้น"
     },
     "date": "2018-09-01",
-    "location": { "en": "Mo Chit BTS Station, Chatuchak", "th": "สถานี BTS หมอชิต เขตจตุจักร" },
-    "coordinates": [100.5534, 13.8028],
+    "location": {
+      "en": "Mo Chit BTS Station, Chatuchak",
+      "th": "สถานี BTS หมอชิต เขตจตุจักร"
+    },
+    "coordinates": [
+      100.5534,
+      13.8028
+    ],
     "radiusM": 50,
     "severity": "injury",
     "victims": 1,
     "sources": [
-      { "name": "The Thaiger", "url": "https://thethaiger.com/news/bangkok/woman-faints-and-falls-hitting-bangkok-bts-train-this-morning" }
+      {
+        "name": "The Thaiger",
+        "url": "https://thethaiger.com/news/bangkok/woman-faints-and-falls-hitting-bangkok-bts-train-this-morning"
+      }
+    ],
+    "blackSwan": true,
+    "systemFailures": [
+      {
+        "en": "No platform screen doors at one of the network's busiest interchange stations",
+        "th": "ไม่มีประตูกั้นชานชาลาที่สถานีเปลี่ยนสายที่พลุกพล่านที่สุดแห่งหนึ่ง"
+      },
+      {
+        "en": "No link between platform fall detection and train braking",
+        "th": "ไม่มีการเชื่อมระหว่างการตรวจจับการตกกับระบบเบรกรถไฟ"
+      },
+      {
+        "en": "Peak-hour crowding pushed queues to the edge with no buffer zone",
+        "th": "ความแออัดชั่วโมงเร่งด่วนดันแถวไปถึงขอบโดยไม่มีพื้นที่กันชน"
+      }
     ]
   },
   {
     "id": "real-bts-psd-003",
     "category": "bts_psd",
-    "title": { "en": "Woman found dead beneath Phra Khanong BTS station", "th": "พบหญิงเสียชีวิตใต้สถานี BTS พระโขนง" },
+    "title": {
+      "en": "Woman found dead beneath Phra Khanong BTS station",
+      "th": "พบหญิงเสียชีวิตใต้สถานี BTS พระโขนง"
+    },
     "summary": {
       "en": "A 36-year-old woman was found critically injured on the pavement below Phra Khanong station on a rainy night in 2013 and died the following morning. The platform sits 8 metres above Sukhumvit Road. Cause classified as a mystery fall; the slippery wet platform and low-railing edge had no secondary barrier.",
       "th": "พบหญิงอายุ 36 ปีบาดเจ็บสาหัสบนทางเท้าใต้สถานีพระโขนงในคืนฝนตก ปี 2556 เสียชีวิตเช้าวันรุ่งขึ้น ชานชาลาสูงจากถนนสุขุมวิท 8 เมตร สาเหตุถูกระบุเป็น 'ปริศนา' ชานชาลาลื่นและราวกั้นต่ำโดยไม่มีสิ่งกั้นสำรอง"
     },
     "date": "2013-10-24",
-    "location": { "en": "Phra Khanong BTS Station, Watthana", "th": "สถานี BTS พระโขนง เขตวัฒนา" },
-    "coordinates": [100.6032, 13.7141],
+    "location": {
+      "en": "Phra Khanong BTS Station, Watthana",
+      "th": "สถานี BTS พระโขนง เขตวัฒนา"
+    },
+    "coordinates": [
+      100.6032,
+      13.7141
+    ],
     "radiusM": 50,
     "severity": "fatal",
     "victims": 1,
     "sources": [
-      { "name": "Bangkok Post", "url": "https://www.bangkokpost.com/thailand/politics/369375/woman-dies-in-mystery-fall-from-bts-platform" }
+      {
+        "name": "Bangkok Post",
+        "url": "https://www.bangkokpost.com/thailand/politics/369375/woman-dies-in-mystery-fall-from-bts-platform"
+      }
+    ],
+    "blackSwan": true,
+    "systemFailures": [
+      {
+        "en": "Open-air platform 8 m above traffic guarded only by a low railing",
+        "th": "ชานชาลากลางแจ้งสูง 8 เมตรเหนือถนน มีเพียงราวกั้นเตี้ย ๆ"
+      },
+      {
+        "en": "Rain-slick platform surface with no anti-slip treatment",
+        "th": "พื้นชานชาลาลื่นจากฝนโดยไม่มีวัสดุกันลื่น"
+      },
+      {
+        "en": "CCTV blind spot at the edge — the fall was never explained",
+        "th": "จุดบอดกล้องวงจรปิดตรงขอบ — สาเหตุการตกไม่เคยได้รับการคลี่คลาย"
+      }
     ]
   },
   {
     "id": "real-makkasan-2026",
     "category": "makkasan_crossing",
-    "title": { "en": "Bus trapped on level crossing — 8 dead, Makkasan 2026", "th": "รถบัสติดบนทางข้ามรถไฟ เสียชีวิต 8 ราย มักกะสัน 2569" },
+    "title": {
+      "en": "Bus trapped on level crossing — 8 dead, Makkasan 2026",
+      "th": "รถบัสติดบนทางข้ามรถไฟ เสียชีวิต 8 ราย มักกะสัน 2569"
+    },
     "summary": {
       "en": "In May 2026, a bus became trapped on the Makkasan level crossing after the barriers came down around it. The driver had no emergency line to halt the approaching SRT train. The train struck the bus, killing 8 and injuring 33+. Three systems failed simultaneously: the barrier sensor (no 'vehicle still present' check), the emergency halt protocol (no driver hotline to the control room), and driver training (no reversal procedure).",
       "th": "เดือนพฤษภาคม 2569 รถโดยสารติดอยู่บนทางข้ามรถไฟมักกะสันหลังไม้กั้นปิดลงรอบคัน คนขับไม่มีสายด่วนหยุดรถไฟ SRT ที่กำลังวิ่งเข้ามา รถไฟพุ่งชนรถบัส เสียชีวิต 8 ราย บาดเจ็บกว่า 33 ราย ระบบสามอย่างล้มเหลวพร้อมกัน: เซ็นเซอร์ไม้กั้น ระบบหยุดฉุกเฉิน และการฝึกอบรมคนขับ"
     },
     "date": "2026-05-16",
-    "location": { "en": "Makkasan Level Crossing, Ratchathewi, Bangkok", "th": "ทางข้ามรถไฟมักกะสัน เขตราชเทวี กรุงเทพฯ" },
-    "coordinates": [100.5645, 13.7490],
+    "location": {
+      "en": "Makkasan Level Crossing, Ratchathewi, Bangkok",
+      "th": "ทางข้ามรถไฟมักกะสัน เขตราชเทวี กรุงเทพฯ"
+    },
+    "coordinates": [
+      100.5645,
+      13.749
+    ],
     "radiusM": 150,
     "severity": "fatal",
     "victims": 8,
     "sources": [
-      { "name": "Bangkok Post", "url": "https://www.bangkokpost.com/thailand/general/3256083/at-least-8-dead-in-bangkok-bustrain-collision" },
-      { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/5/16/at-least-eight-killed-25-injured-as-train-hits-bus-in-bangkok" }
+      {
+        "name": "Bangkok Post",
+        "url": "https://www.bangkokpost.com/thailand/general/3256083/at-least-8-dead-in-bangkok-bustrain-collision"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/5/16/at-least-eight-killed-25-injured-as-train-hits-bus-in-bangkok"
+      }
+    ],
+    "blackSwan": true,
+    "systemFailures": [
+      {
+        "en": "Barrier system never checked whether a vehicle was still inside the crossing",
+        "th": "ระบบไม้กั้นไม่เคยตรวจสอบว่ายังมีรถติดอยู่ในทางข้ามหรือไม่"
+      },
+      {
+        "en": "Bus driver had no emergency line to the rail control room to halt the train",
+        "th": "คนขับรถบัสไม่มีสายด่วนถึงศูนย์ควบคุมรถไฟเพื่อหยุดขบวน"
+      },
+      {
+        "en": "No trained procedure for escaping a vehicle trapped between barriers",
+        "th": "ไม่มีขั้นตอนที่ฝึกไว้สำหรับนำรถออกจากระหว่างไม้กั้น"
+      }
     ]
   },
   {
     "id": "real-sikhio-2026",
     "category": "sikhio_crash",
-    "title": { "en": "Crane truck hit passenger train — 30 dead, Sikhio 2026", "th": "รถบรรทุกเครนชนรถไฟโดยสาร เสียชีวิต 30 ราย สีคิ้ว 2569" },
+    "title": {
+      "en": "Crane truck hit passenger train — 30 dead, Sikhio 2026",
+      "th": "รถบรรทุกเครนชนรถไฟโดยสาร เสียชีวิต 30 ราย สีคิ้ว 2569"
+    },
     "summary": {
       "en": "In January 2026, a truck carrying an oversized crane crossed a level crossing in Sikhio, Nakhon Ratchasima. The crane boom struck an oncoming passenger train. 30 died and dozens were injured. Three systems failed: the crane's transit permit did not cover the railway corridor, no proximity sensor existed at the crossing, and the single-track line offered no evasion margin.",
       "th": "เดือนมกราคม 2569 รถบรรทุกขนเครนขนาดใหญ่ผ่านทางข้ามรถไฟในอำเภอสีคิ้ว จังหวัดนครราชสีมา แขนบูมเครนพุ่งชนรถไฟโดยสาร เสียชีวิต 30 ราย บาดเจ็บหลายสิบราย ระบบสามอย่างล้มเหลว: ใบอนุญาตขนส่งเครนไม่ครอบคลุมทางรถไฟ ไม่มีเซ็นเซอร์ตรวจจับที่ทางข้าม และรางเดี่ยวไม่มีทางหลบ"
     },
     "date": "2026-01-05",
-    "location": { "en": "Sikhio, Nakhon Ratchasima (250 km NE of Bangkok)", "th": "อำเภอสีคิ้ว จังหวัดนครราชสีมา (ห่างกรุงเทพฯ 250 กม.)" },
-    "coordinates": [101.7260, 14.8870],
+    "location": {
+      "en": "Sikhio, Nakhon Ratchasima (250 km NE of Bangkok)",
+      "th": "อำเภอสีคิ้ว จังหวัดนครราชสีมา (ห่างกรุงเทพฯ 250 กม.)"
+    },
+    "coordinates": [
+      101.726,
+      14.887
+    ],
     "radiusM": 300,
     "severity": "fatal",
     "victims": 30,
     "sources": [
-      { "name": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Sikhio_train_disaster" },
-      { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/1/5/at-least-30-killed-in-thailand-train-crash" }
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sikhio_train_disaster"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/1/5/at-least-30-killed-in-thailand-train-crash"
+      }
+    ],
+    "blackSwan": true,
+    "systemFailures": [
+      {
+        "en": "Oversized-load transit permit did not cover the railway corridor on the route",
+        "th": "ใบอนุญาตขนส่งสิ่งของขนาดใหญ่ไม่ครอบคลุมช่วงทางรถไฟบนเส้นทาง"
+      },
+      {
+        "en": "Crossing had no proximity sensor or height gauge to catch the crane boom",
+        "th": "ทางข้ามไม่มีเซ็นเซอร์ระยะใกล้หรือเกจวัดความสูงที่จะจับแขนเครนได้"
+      },
+      {
+        "en": "Single-track line gave the passenger train zero evasion margin",
+        "th": "รางเดี่ยวทำให้รถไฟโดยสารไม่มีระยะหลบเลี่ยงเลย"
+      }
     ]
   }
 ]

@@ -13,6 +13,45 @@ export function CategoryFilter() {
   const setActive = useApp((s) => s.setActiveCategory);
   const counts = countByCategory();
 
+  const everyday = CATEGORIES.filter((c) => !c.blackSwan);
+  const blackSwans = CATEGORIES.filter((c) => c.blackSwan);
+
+  const renderCategory = (cat: (typeof CATEGORIES)[number]) => {
+    const C = CHARACTERS[cat.id];
+    const n = counts[cat.id] ?? 0;
+    const isActive = active === cat.id;
+    return (
+      <li key={cat.id}>
+        <button
+          type="button"
+          onClick={() => setActive(isActive ? null : cat.id)}
+          className={clsx(
+            'w-full px-2 py-2 rounded-xl border-2 border-dwtd-dark flex items-center gap-3 text-left transition-transform',
+            isActive
+              ? 'bg-white shadow-pop -translate-y-0.5'
+              : 'bg-white/70 hover:bg-white hover:shadow-popsm',
+          )}
+        >
+          <span
+            className="shrink-0 rounded-lg border-2 border-dwtd-dark p-1"
+            style={{ backgroundColor: cat.color }}
+          >
+            <C size={36} />
+          </span>
+          <span className="flex-1">
+            <span className="block font-bold text-sm leading-tight">
+              {t(cat.label, lang)}
+            </span>
+            <span className="block text-xs text-dwtd-mid leading-tight">
+              {t(cat.tagline, lang)}
+            </span>
+          </span>
+          <span className="text-sm font-bold text-dwtd-mid">{n}</span>
+        </button>
+      </li>
+    );
+  };
+
   return (
     <aside className="w-full md:w-80 shrink-0 border-r-2 border-dwtd-dark bg-dwtd-cream overflow-y-auto">
       <div className="p-4">
@@ -33,43 +72,20 @@ export function CategoryFilter() {
           </span>
         </button>
 
-        <ul className="mt-2 space-y-1.5">
-          {CATEGORIES.map((cat) => {
-            const C = CHARACTERS[cat.id];
-            const n = counts[cat.id] ?? 0;
-            const isActive = active === cat.id;
-            return (
-              <li key={cat.id}>
-                <button
-                  type="button"
-                  onClick={() => setActive(isActive ? null : cat.id)}
-                  className={clsx(
-                    'w-full px-2 py-2 rounded-xl border-2 border-dwtd-dark flex items-center gap-3 text-left transition-transform',
-                    isActive
-                      ? 'bg-white shadow-pop -translate-y-0.5'
-                      : 'bg-white/70 hover:bg-white hover:shadow-popsm',
-                  )}
-                >
-                  <span
-                    className="shrink-0 rounded-lg border-2 border-dwtd-dark p-1"
-                    style={{ backgroundColor: cat.color }}
-                  >
-                    <C size={36} />
-                  </span>
-                  <span className="flex-1">
-                    <span className="block font-bold text-sm leading-tight">
-                      {t(cat.label, lang)}
-                    </span>
-                    <span className="block text-xs text-dwtd-mid leading-tight">
-                      {t(cat.tagline, lang)}
-                    </span>
-                  </span>
-                  <span className="text-sm font-bold text-dwtd-mid">{n}</span>
-                </button>
-              </li>
-            );
-          })}
-        </ul>
+        <h3 className="mt-4 text-xs uppercase tracking-wider text-dwtd-mid font-bold">
+          {t(STRINGS.everydayHazards, lang)}
+        </h3>
+        <ul className="mt-2 space-y-1.5">{everyday.map(renderCategory)}</ul>
+
+        {blackSwans.length > 0 ? (
+          <>
+            <h3 className="mt-5 text-xs uppercase tracking-wider font-bold text-dwtd-dark flex items-center gap-1.5">
+              <span aria-hidden>🦢</span>
+              {t(STRINGS.blackSwanSection, lang)}
+            </h3>
+            <ul className="mt-2 space-y-1.5">{blackSwans.map(renderCategory)}</ul>
+          </>
+        ) : null}
       </div>
     </aside>
   );
