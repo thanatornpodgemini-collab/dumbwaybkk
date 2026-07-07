@@ -20,16 +20,19 @@ export function CategoryFilter() {
     const C = CHARACTERS[cat.id];
     const n = counts[cat.id] ?? 0;
     const isActive = active === cat.id;
+    const isEmpty = n === 0;
     return (
       <li key={cat.id}>
         <button
           type="button"
           onClick={() => setActive(isActive ? null : cat.id)}
+          disabled={isEmpty}
           className={clsx(
             'w-full px-2 py-2 rounded-xl border-2 border-dwtd-dark flex items-center gap-3 text-left transition-transform',
             isActive
               ? 'bg-white shadow-pop -translate-y-0.5'
               : 'bg-white/70 hover:bg-white hover:shadow-popsm',
+            isEmpty && 'opacity-45 cursor-not-allowed hover:bg-white/70 hover:shadow-none',
           )}
         >
           <span

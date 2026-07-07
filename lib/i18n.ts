@@ -15,6 +15,10 @@ export const STRINGS = {
     en: 'Showing curated seed data — run the scraper to load live incidents.',
     th: 'ข้อมูลตัวอย่าง — รันสแครปเปอร์เพื่อโหลดเหตุการณ์จริง',
   },
+  dataNotice: {
+    en: 'real incidents from Thai news, 2020–2026 — every marker links to its source.',
+    th: 'เหตุการณ์จริงจากข่าวไทย ปี 2563–2569 — ทุกหมุดลิงก์ไปยังแหล่งข่าว',
+  },
   blackSwan: { en: 'Black swan', th: 'หงส์ดำ' },
   whatFailed: { en: 'The systems that failed', th: 'ระบบที่ล้มเหลว' },
   everydayHazards: { en: 'Everyday hazards', th: 'อันตรายในชีวิตประจำวัน' },
