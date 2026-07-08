@@ -21,8 +21,7 @@ export const STRINGS = {
   },
   blackSwan: { en: 'Black swan', th: 'หงส์ดำ' },
   whatFailed: { en: 'The systems that failed', th: 'ระบบที่ล้มเหลว' },
-  everydayHazards: { en: 'Everyday hazards', th: 'อันตรายในชีวิตประจำวัน' },
-  blackSwanSection: { en: 'Black swans — it all failed at once', th: 'หงส์ดำ — ทุกระบบล้มเหลวพร้อมกัน' },
+  blackSwanSection: { en: 'Fat-tail events only', th: 'เฉพาะเหตุการณ์หงส์ดำ' },
   langToggleEN: { en: 'EN', th: 'EN' },
   langToggleTH: { en: 'TH', th: 'ไทย' },
   severity: {

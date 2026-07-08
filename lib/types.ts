@@ -54,8 +54,6 @@ export interface CategoryMeta {
   color: string;
   /** short, deadpan one-liner shown above the character */
   tagline: LocalizedText;
-  /** groups the category under the "Black swans" section of the filter */
-  blackSwan?: boolean;
 }
 
 export type Lang = 'en' | 'th';

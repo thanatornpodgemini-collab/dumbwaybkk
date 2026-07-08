@@ -111,7 +111,6 @@ export const CATEGORIES: CategoryMeta[] = [
   },
   {
     id: 'bts_psd',
-    blackSwan: true,
     label: { en: 'BTS: No Screen Doors', th: 'BTS: ไม่มีประตูกั้นชานชาลา' },
     color: '#1565c0',
     tagline: {
@@ -121,7 +120,6 @@ export const CATEGORIES: CategoryMeta[] = [
   },
   {
     id: 'makkasan_crossing',
-    blackSwan: true,
     label: { en: 'Makkasan Crossing 2026', th: 'ทางข้ามมักกะสัน 2569' },
     color: '#b91c1c',
     tagline: {
@@ -131,7 +129,6 @@ export const CATEGORIES: CategoryMeta[] = [
   },
   {
     id: 'sikhio_crash',
-    blackSwan: true,
     label: { en: 'Sikhio Train Crash 2026', th: 'รถไฟสีคิ้วชน 2569' },
     color: '#78350f',
     tagline: {

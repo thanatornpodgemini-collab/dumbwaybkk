@@ -4,23 +4,25 @@ import clsx from 'clsx';
 import { CATEGORIES } from '@/lib/categories';
 import { useApp } from '@/lib/store';
 import { STRINGS, t } from '@/lib/i18n';
-import { countByCategory } from '@/lib/incidents';
+import { countByCategory, categoriesWithBlackSwan, blackSwanCount } from '@/lib/incidents';
 import { CHARACTERS } from './characters';
 
 export function CategoryFilter() {
   const lang = useApp((s) => s.lang);
   const active = useApp((s) => s.activeCategory);
   const setActive = useApp((s) => s.setActiveCategory);
-  const counts = countByCategory();
+  const blackSwanOnly = useApp((s) => s.blackSwanOnly);
+  const setBlackSwanOnly = useApp((s) => s.setBlackSwanOnly);
 
-  const everyday = CATEGORIES.filter((c) => !c.blackSwan);
-  const blackSwans = CATEGORIES.filter((c) => c.blackSwan);
+  const counts = countByCategory({ blackSwanOnly });
+  const swanCategories = categoriesWithBlackSwan();
 
   const renderCategory = (cat: (typeof CATEGORIES)[number]) => {
     const C = CHARACTERS[cat.id];
     const n = counts[cat.id] ?? 0;
     const isActive = active === cat.id;
     const isEmpty = n === 0;
+    const hasBlackSwan = swanCategories.has(cat.id);
     return (
       <li key={cat.id}>
         <button
@@ -44,6 +46,11 @@ export function CategoryFilter() {
           <span className="flex-1">
             <span className="block font-bold text-sm leading-tight">
               {t(cat.label, lang)}
+              {hasBlackSwan ? (
+                <span aria-label={t(STRINGS.blackSwan, lang)} className="ml-1">
+                  🦢
+                </span>
+              ) : null}
             </span>
             <span className="block text-xs text-dwtd-mid leading-tight">
               {t(cat.tagline, lang)}
@@ -71,24 +78,24 @@ export function CategoryFilter() {
         >
           {t(STRINGS.filterAll, lang)}
           <span className="float-right text-sm font-normal text-dwtd-mid">
-            {Object.values(counts).reduce((a, b) => a + b, 0)}
+            {Object.values(countByCategory()).reduce((a, b) => a + b, 0)}
           </span>
         </button>
 
-        <h3 className="mt-4 text-xs uppercase tracking-wider text-dwtd-mid font-bold">
-          {t(STRINGS.everydayHazards, lang)}
-        </h3>
-        <ul className="mt-2 space-y-1.5">{everyday.map(renderCategory)}</ul>
+        <button
+          type="button"
+          onClick={() => setBlackSwanOnly(!blackSwanOnly)}
+          className={clsx(
+            'w-full mt-2 px-3 py-2 rounded-xl border-2 border-dwtd-dark text-left font-bold flex items-center gap-2',
+            blackSwanOnly ? 'bg-dwtd-dark text-dwtd-cream shadow-popsm' : 'bg-white hover:bg-dwtd-dark/5',
+          )}
+        >
+          <span aria-hidden>🦢</span>
+          {t(STRINGS.blackSwanSection, lang)}
+          <span className="ml-auto text-sm font-normal opacity-80">{blackSwanCount}</span>
+        </button>
 
-        {blackSwans.length > 0 ? (
-          <>
-            <h3 className="mt-5 text-xs uppercase tracking-wider font-bold text-dwtd-dark flex items-center gap-1.5">
-              <span aria-hidden>🦢</span>
-              {t(STRINGS.blackSwanSection, lang)}
-            </h3>
-            <ul className="mt-2 space-y-1.5">{blackSwans.map(renderCategory)}</ul>
-          </>
-        ) : null}
+        <ul className="mt-3 space-y-1.5">{CATEGORIES.map(renderCategory)}</ul>
       </div>
     </aside>
   );

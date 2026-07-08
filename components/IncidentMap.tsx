@@ -40,22 +40,25 @@ export function IncidentMap() {
   const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
   const style = process.env.NEXT_PUBLIC_MAPBOX_STYLE ?? 'mapbox://styles/mapbox/light-v11';
   const activeCategory = useApp((s) => s.activeCategory);
+  const blackSwanOnly = useApp((s) => s.blackSwanOnly);
   const selectedId = useApp((s) => s.selectedIncidentId);
   const setSelected = useApp((s) => s.setSelectedIncidentId);
   const [hoveredId, setHoveredId] = React.useState<string | null>(null);
   const mapRef = React.useRef<MapRef>(null);
 
   const incidents = React.useMemo(
-    () => getIncidents({ category: activeCategory ?? undefined }),
-    [activeCategory],
+    () => getIncidents({ category: activeCategory ?? undefined, blackSwanOnly }),
+    [activeCategory, blackSwanOnly],
   );
+
+  const isFiltered = activeCategory !== null || blackSwanOnly;
 
   // Keep the selection reachable: some black-swan sites (Sikhio, 250 km NE)
   // sit far outside the default Bangkok viewport.
   React.useEffect(() => {
     const map = mapRef.current;
     if (!map) return;
-    if (!activeCategory) {
+    if (!isFiltered) {
       map.flyTo({ center: [BANGKOK_CENTER.longitude, BANGKOK_CENTER.latitude], zoom: BANGKOK_CENTER.zoom, duration: 1200 });
       return;
     }
@@ -74,7 +77,7 @@ export function IncidentMap() {
       ],
       { padding: 100, maxZoom: 13, duration: 1200 },
     );
-  }, [activeCategory, incidents]);
+  }, [isFiltered, incidents]);
 
   const radiiGeoJson: FeatureCollection = React.useMemo(
     () => ({
