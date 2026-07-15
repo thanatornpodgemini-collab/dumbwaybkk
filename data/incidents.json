@@ -3172,5 +3172,382 @@
         "url": "https://thai.news/news/thailand/bangkok-traffic-drama-unfolds-yaowarat-road-rage-incident-caught-on-camera"
       }
     ]
+  },
+  {
+    "id": "scraped3-floodboat-001",
+    "category": "flood",
+    "title": {
+      "en": "September 2025 Bangkok 'Triple Squeeze' Catastrophic Flood Event",
+      "th": "เหตุการณ์น้ำท่วมฉับพลัน 'ไตรมาตรฐาน' กรุงเทพ ตุลาคม 2568"
+    },
+    "summary": {
+      "en": "Severe flooding engulfed 80% of Bangkok in early September 2025 when three independent systems failed simultaneously: upstream dam emergency releases, heavy local rainfall, and unusually high sea tides blocking drainage outflow. Infrastructure vulnerabilities including 30+ year old drainage systems, land subsidence (1-2cm/year), and loss of 63% of water retention areas to development combined to overwhelm the city.",
+      "th": "น้ำท่วมรุนแรงครอบคลุม 80% ของกรุงเทพในช่วงต้นเดือนกันยายน 2568 เมื่อระบบที่เป็นอิสระสามระบบล้มเหลวพร้อมกัน ได้แก่ การปล่อยน้ำฉุกเฉิน จากเขื่อนน้ำด้านบนน้ำ ฝนตกหนักในพื้นที่ และระดับน้ำขึ้นมูลฉิดที่บล็อกการระบายน้ำออกสู่ทะเล ความเสี่ยงของโครงสร้างพื้นฐาน รวมถึงระบบระบายน้ำที่อายุกว่า 30 ปี การทรุดตัวของพื้นดิน และการสูญเสีย 63% ของพื้นที่เก็บกักน้ำต่อการพัฒนารวมกันจนเกินความสามารถของเมือง"
+    },
+    "date": "2025-09-07",
+    "location": {
+      "en": "Bangkok (80% affected) and Samut Prakan province",
+      "th": "กรุงเทพมหานคร (ได้รับผลกระทบ 80%) และจังหวัดสมุทรปราการ"
+    },
+    "coordinates": [
+      100.5018,
+      13.7563
+    ],
+    "radiusM": 5000,
+    "severity": "injury",
+    "sources": [
+      {
+        "name": "Nestopa - Bangkok's 2025 Floods: What You Need to Know",
+        "url": "https://nestopa.com/th-en/articles/bangkoks-2025-floods-what-you-need-to-know"
+      },
+      {
+        "name": "Nation Thailand - Urgent flood warning issued as Chao Phraya River reaches crisis level",
+        "url": "https://www.nationthailand.com/news/general/40055265"
+      },
+      {
+        "name": "ReliefWeb - Thailand Floods and landslides (9 September 2025)",
+        "url": "https://reliefweb.int/report/thailand/thailand-floods-and-landslides-adinet-noaa-cpc-media-echo-daily-flash-9-september-2025"
+      }
+    ],
+    "blackSwan": true,
+    "systemFailures": [
+      {
+        "en": "Drainage system capacity failure: city drainage designed for 60mm/hour rainfall, exceeded during heavy monsoon precipitation",
+        "th": "ระบบระบายน้ำล้มเหลว: ระบบระบายน้ำเมืองออกแบบมาสำหรับฝนตก 60 มม./ชั่วโมง ถูกเกินขีดจำกัดในระหว่างฝนโมนสูน"
+      },
+      {
+        "en": "Upstream dam emergency releases: 9 major dams holding water beyond maximum safe capacity, forced simultaneous discharge of 1,500-2,000 cubic meters per second toward Bangkok",
+        "th": "การปล่อยน้ำฉุกเฉินจากเขื่อนด้านบนน้ำ: เขื่อนขนาดใหญ่ 9 แห่งกักเก็บน้ำเกินความจุปลอดภัยสูงสุด บังคับให้ปล่อยน้อพร้อมกัน 1,500-2,000 ลูกบาศก์เมตรต่อวินาทีเข้าสู่กรุงเทพ"
+      },
+      {
+        "en": "High sea tides blocking southern drainage: abnormally high tides in Gulf of Thailand prevented floodwater from draining out to sea, creating backup effect particularly in Samut Prakan delta region",
+        "th": "ระดับน้ำขึ้นมูลฉิดสูงบล็อกการระบายน้ำด้านใต้: ระดับน้ำขึ้นมูลฉิดผิดปกติสูงในอ่าวไทยป้องกันไม่ให้น้ำท่วมไหลออกสู่ทะเล สร้างปรากฏการณ์แบ็กอัพโดยเฉพาะในพื้นที่เดลตาสมุทรปราการ"
+      },
+      {
+        "en": "Infrastructure vulnerability cascade: land subsidence (1-2cm/year from historical groundwater extraction), loss of 63% of water retention areas to development, and aged drainage infrastructure (30+ years) simultaneously overwhelmed",
+        "th": "ลำดับเหตุการณ์ความเสี่ยงของโครงสร้างพื้นฐาน: การทรุดตัวของพื้นดิน (1-2 ซม./ปีจากการสูบน้ำบาดาลในอดีต) การสูญเสีย 63% ของพื้นที่เก็บกักน้ำต่อการพัฒนา และโครงสร้างพื้นฐานระบายน้ำที่เก่าแก่ (มากกว่า 30 ปี) ล้มเหลวพร้อมกัน"
+      }
+    ]
+  },
+  {
+    "id": "scraped3-floodboat-002",
+    "category": "klong_boat",
+    "title": {
+      "en": "Samut Prakan Jet-Ski Reckless Racing Canal Collision - 3 Deaths",
+      "th": "เหตุการณ์จุดชนเรือท่องเที่ยวความประมาท Samut Prakan - 3 เสียชีวิต"
+    },
+    "summary": {
+      "en": "Three passengers on a longtail boat were killed on October 28, 2023, when a jet-ski operating at high speed lost control and collided with their vessel in Nong Ngu Hao Canal. Multiple independent safety systems failed: absence of jet-ski speed enforcement in shared waterways, lack of traffic segregation between high-speed recreational craft and passenger boats, inadequate licensing/regulation of reckless operators, and absence of life-saving equipment on passenger boats.",
+      "th": "ผู้โดยสาร 3 คนบนเรือหางยาวเสียชีวิตในวันที่ 28 ตุลาคม 2566 เมื่อจุดชนซึ่งทำงานที่ความเร็วสูงสูญเสียการควบคุมและชนเข้ากับเรือของพวกเขาในคลองนองงู่เหา ระบบความปลอดภัยที่เป็นอิสระหลายระบบล้มเหลว ได้แก่ การขาดการบังคับใช้ข้อจำกัดความเร็วจุดชนในน่านน้ำร่วมใจ การขาดการแยกสัญจรระหว่างเรือบิลลิมขนาดเล็กความเร็วสูงและเรือโดยสาร การควบคุมใบอนุญาตและการควบคุมตัวดำเนินการที่ไม่เพียงพอ และการขาดอุปกรณ์ช่วยชีวิตบนเรือโดยสาร"
+    },
+    "date": "2023-10-28",
+    "location": {
+      "en": "Nong Ngu Hao Canal, Bang Phli District, Samut Prakan",
+      "th": "คลองนองงู่เหา ตำบลบางพลี อำเภอบางพลี จังหวัดสมุทรปราการ"
+    },
+    "coordinates": [
+      100.68,
+      13.6
+    ],
+    "radiusM": 300,
+    "severity": "fatal",
+    "victims": 3,
+    "sources": [
+      {
+        "name": "Bangkok Post - Three killed after jet ski rams longtail boat",
+        "url": "https://www.bangkokpost.com/thailand/general/2673461/three-killed-after-jet-ski-rams-longtail-boat"
+      },
+      {
+        "name": "TPN National News - Three Deaths after Jet-Ski Collides With Boat in Samut Prakan",
+        "url": "https://tpnnational.com/2023/10/28/three-deaths-after-jet-ski-collides-with-boat-in-samut-prakan/"
+      },
+      {
+        "name": "Nation Thailand - Two people killed as actor's jet ski crashes into long-tail boat",
+        "url": "https://www.nationthailand.com/blogs/news/general/40040670"
+      }
+    ],
+    "blackSwan": true,
+    "systemFailures": [
+      {
+        "en": "Jet-ski speed enforcement failure: high-speed jet-ski racing permitted in shared waterway with passenger boats; no meaningful enforcement of speed limits in recreational water zones",
+        "th": "ระบบบังคับใช้ข้อจำกัดความเร็วจุดชนล้มเหลว: อนุญาตให้มีการแข่งความเร็วจุดชนในน่านน้ำร่วมใจกับเรือโดยสาร ไม่มีการบังคับใช้ข้อจำกัดความเร็วอย่างมีความหมายในโซนน้ำสันหวย"
+      },
+      {
+        "en": "Waterway traffic segregation failure: absence of effective traffic management or physical barriers separating high-speed jet-skis from slower passenger boats on shared canals",
+        "th": "ระบบแยกสัญจรน้ำล้มเหลว: ขาดการจัดการจราจรที่มีประสิทธิภาพหรือปิดกั้นกายภาพแยกจุดชนความเร็วสูงจากเรือโดยสารที่ชิดหลัง"
+      },
+      {
+        "en": "Jet-ski operator licensing/regulation inadequacy: insufficient standards for jet-ski operator licensing and no enforcement against reckless or racing behavior at high speed",
+        "th": "ความไม่เพียงพอของการควบคุมใบอนุญาตและการควบคุมตัวดำเนินการจุดชน: มาตรฐานไม่เพียงพอสำหรับใบอนุญาตตัวดำเนินการจุดชนและไม่มีการบังคับใช้กับพฤติกรรมความประมาทหรือการแข่งที่ความเร็วสูง"
+      },
+      {
+        "en": "Passenger safety equipment failure: longtail boat passengers lacked life-saving equipment (life vests) and no enforcement of passenger safety standards on small recreational water craft",
+        "th": "ระบบอุปกรณ์ความปลอดภัยผู้โดยสารล้มเหลว: ผู้โดยสารเรือหางยาวขาดอุปกรณ์ช่วยชีวิต (เสื้อชูชีพ) และไม่มีการบังคับใช้มาตรฐานความปลอดภัยผู้โดยสารบนเรือสันหวยน้ำขนาดเล็ก"
+      }
+    ]
+  },
+  {
+    "id": "scraped3-industrial-002",
+    "category": "pollution",
+    "title": {
+      "en": "Song Phi Nong Ethyl Acetate Chemical Leak - Multiple Safety Infrastructure Failures",
+      "th": "สารเคมีรั่วไหลอีทิลอะซิเตตซงพิ่นนาง - ความล้มเหลวของโครงสร้างพื้นฐานความปลอดภัยหลายอย่าง"
+    },
+    "summary": {
+      "en": "Ethyl acetate chemical leaked from cargo vessel during transfer when contractor made error routing chemical into wrong pipeline, hospitalizing ~50 residents. Prime Minister stated 'No evacuation plan' existed. No real-time leak detection caught the spill, secondary containment systems were absent, and chemical contaminated drainage canal affecting community water supply.",
+      "th": "สารเคมีอีทิลอะซิเตตรั่วไหลจากเรือบรรทุกสินค้าระหว่างการขนส่ง เมื่อผู้รับเหมาทำให้เกิดข้อผิดพลาดในการขนส่งสารเคมี ไม่มีระบบตรวจจับการรั่วไหลแบบเรียลไทม์ ระบบบรรจุไว้เป็นครั้งที่สองไม่มีอยู่ และสารเคมีปนเปื้อนคลองระบายน้ำ"
+    },
+    "date": "2026-01-15",
+    "location": {
+      "en": "Phra Samut Chedi, Samut Prakan",
+      "th": "พระสมุทรเจดีย์ สมุทรปราการ"
+    },
+    "coordinates": [
+      100.4688,
+      13.8583
+    ],
+    "radiusM": 700,
+    "severity": "injury",
+    "victims": 50,
+    "sources": [
+      {
+        "name": "Nation Thailand - Chemical Leak Sparks Mass Evacuation",
+        "url": "https://www.nationthailand.com/news/general/40061252"
+      },
+      {
+        "name": "Khao Sod English - Chemical spill sends dozens to hospital",
+        "url": "https://www.khaosodenglish.com/news/2026/01/15/chemical-spill-sends-dozens-to-hospital-in-thailand/"
+      },
+      {
+        "name": "The Star - Chemical leak sparks mass evacuation in Samut Prakan",
+        "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/01/15/chemical-leak-sparks-mass-evacuation-in-samut-prakan-as-schools-close"
+      },
+      {
+        "name": "Nation Thailand - No evacuation plan as chemical leak under control",
+        "url": "https://www.nationthailand.com/thailand/general/40034437"
+      }
+    ],
+    "blackSwan": true,
+    "systemFailures": [
+      {
+        "en": "Chemical transfer safety procedures and worker training failed - contractor made critical error during chemical transfer routing ethyl acetate into wrong pipeline instead of correct storage tank",
+        "th": "ขั้นตอนความปลอดภัยในการขนส่งสารเคมีและการฝึกอบรมพนักงานล้มเหลว - ผู้รับเหมาทำให้เกิดข้อผิดพลาดที่สำคัญ"
+      },
+      {
+        "en": "Real-time leak detection and automated monitoring systems failed - chemical spill was not detected automatically; system only became known when noxious odor reached residents hours later",
+        "th": "ระบบตรวจจับการรั่วไหลแบบเรียลไทม์และการตรวจสอบอัตโนมัติล้มเหลว - การรั่วไหลของสารเคมีไม่ถูกตรวจพบโดยอัตโนมัติ"
+      },
+      {
+        "en": "Secondary containment and spill prevention systems failed - no containment infrastructure captured the leaked chemical, allowing it to flow directly into drainage canal contaminating community water sources",
+        "th": "ระบบบรรจุไว้เป็นครั้งที่สองและระบบป้องกันการรั่วไหลล้มเหลว - ไม่มีโครงสร้างบรรจุที่จับสารเคมีที่รั่วไหล"
+      },
+      {
+        "en": "Emergency evacuation planning and preparedness systems failed - Prime Minister explicitly stated 'No evacuation plan' existed for this industrial area despite proximity to residential community and schools",
+        "th": "ระบบการวางแผนการอพยพฉุกเฉินและความเตรียมพร้อมล้มเหลว - นายกรัฐมนตรีระบุอย่างชัดแจ้งว่าไม่มี 'แผนการอพยพ'"
+      }
+    ]
+  },
+  {
+    "id": "scraped3-railroad-001",
+    "category": "rail",
+    "title": {
+      "en": "Khlong Kwaeng Klan Train-Bus Collision, Chachoengsao",
+      "th": "อุบัติเหตุรถไฟชนรถเมล์ที่คลองแควงกลาง จังหวัดฉะเชิงเทรา"
+    },
+    "summary": {
+      "en": "A cargo train collided with an overcrowded charter bus carrying 60 temple-goers at an unprotected railway crossing with no barriers and a broken warning signal system, killing 18-20 people and injuring 44+. Multiple safety systems failed simultaneously: crossing infrastructure absent, bus overcrowding violations ignored by inspection, and poor visibility conditions.",
+      "th": "รถไฟบรรทุกชนกับรถเมล์รับจ้างที่เต็มไปด้วยผู้โดยสารกว่า 60 คน ที่ทางข้ามรถไฟที่ไม่มีประตูกั้นและระบบเตือนเสียหาย โดยมีผู้เสียชีวิต 18-20 คน และบาดเจ็บ 44+ คน ระบบความปลอดภัยหลายชั้นเสียหายพร้อมกัน ได้แก่ โครงสร้างพื้นฐานการข้ามทางไม่มี การละเมิดจำนวนผู้โดยสารในรถเมล์ถูกมองข้าม และสภาพอากาศที่มืดครัว"
+    },
+    "date": "2020-10-11",
+    "location": {
+      "en": "Khlong Kwaeng Klan Railway Station, Chachoengsao",
+      "th": "สถานีรถไฟคลองแควงกลาง จังหวัดฉะเชิงเทรา"
+    },
+    "coordinates": [
+      101.0833,
+      13.6833
+    ],
+    "radiusM": 300,
+    "severity": "fatal",
+    "victims": 18,
+    "sources": [
+      {
+        "name": "OSIR Journal - Injury Investigation",
+        "url": "https://he02.tci-thaijo.org/index.php/OSIR/article/view/262495"
+      },
+      {
+        "name": "CNN - Bus-Train Collision",
+        "url": "https://www.cnn.com/2020/10/11/asia/thailand-bus-train-crash-20-dead-intl"
+      },
+      {
+        "name": "Bangkok Post - 18 Dead in Chachoengsao",
+        "url": "https://www.bangkokpost.com/thailand/general/2000299/18-dead-in-chachoengsao-bus-train-collision"
+      },
+      {
+        "name": "Khaosodenglish - Driver Negligence",
+        "url": "https://www.khaosodenglish.com/news/crimecourtscalamity/2020/10/12/drivers-negligence-led-to-bus-train-crash-killing-18/"
+      }
+    ],
+    "blackSwan": true,
+    "systemFailures": [
+      {
+        "en": "Railway crossing infrastructure design failure - no safety barriers, gates, or automatic blocking mechanism present at crossing",
+        "th": "ความล้มเหลวของการออกแบบโครงสร้างพื้นฐานทางข้ามรถไฟ - ไม่มีประตูกั้น ประตูหลัก หรือกลไกการปิดกั้นอัตโนมัติที่ทางข้าม"
+      },
+      {
+        "en": "Signal system failure - warning signal at crossing was broken/non-functional before collision",
+        "th": "ความล้มเหลวของระบบสัญญาณ - สัญญาณเตือนที่ทางข้ามเสีย/ใช้งานไม่ได้ก่อนเกิดการชน"
+      },
+      {
+        "en": "Bus safety regulation violation and inspection failure - vehicle was dangerously overcrowded with standing passengers, violating passenger capacity regulations and failing to be flagged during routine safety inspection",
+        "th": "การละเมิดข้อบัญญัติความปลอดภัยของรถเมล์และความล้มเหลวของการตรวจสอบ - ยานพาหนะเต็มไปด้วยผู้โดยสารยืน ละเมิดกฎระเบียบความจุผู้โดยสาร และล้มเหลวในการถูกทำเครื่องหมายในระหว่างการตรวจสอบความปลอดภัยประจำ"
+      },
+      {
+        "en": "Crossing design allowed vehicle entry despite poor visibility - intersection design permitted bus to enter unmarked/unprotected crossing during rain at 40 km/h with impaired visibility",
+        "th": "การออกแบบทางข้ามที่อนุญาตให้ยานพาหนะเข้าไปแม้ว่าจะมีความเสื้อมของการมองเห็น - การออกแบบสี่แยกอนุญาตให้รถเมล์เข้าไปในทางข้ามที่ไม่มีการทำเครื่องหมาย/ไม่มีการป้องกันในช่วงฝนตกด้วยความเร็ว 40 กม./ชม. โดยมีการมองเห็นที่บกพร่อง"
+      }
+    ]
+  },
+  {
+    "id": "scraped3-structural-001",
+    "category": "construction",
+    "title": {
+      "en": "Lat Krabang Elevated Road Launcher Crane Collapse",
+      "th": "การถล่มของเครื่องยกปูนคอนกรีต ในโครงการสะพานลาดกระบัง"
+    },
+    "summary": {
+      "en": "A launcher crane overturned while lifting a 100-meter concrete span from 20 meters height onto Luang Phaeng Road in Lat Krabang, Bangkok on July 10, 2023, killing an engineer and construction worker. Bangkok Governor confirmed this was caused by irregularities in construction process—not force majeure—revealing multiple simultaneous safety system failures.",
+      "th": "เครื่องยกแบบลอนชเชอร์พลิกคว่ำขณะยกคานคอนกรีตยาว 100 เมตรจากความสูง 20 เมตรลงบนถนนหลวงแพ่ง ในเขตลาดกระบัง กรุงเทพ เมื่อ 10 กรกฎาคม 2566 ส่งผลให้วิศวกรและแรงงานก่อสร้างเสียชีวิต ผู้ว่าราชการกรุงเทพ ยืนยันว่าเกิดจากความไม่สม่ำเสมอในกระบวนการก่อสร้าง ไม่ใช่เรื่องโดยพลการ ซึ่งเผยให้เห็นความล้มเหลวของระบบความปลอดภัยหลายแบบที่เกิดขึ้นพร้อมกัน"
+    },
+    "date": "2023-07-10",
+    "location": {
+      "en": "Luang Phaeng Road, Lat Krabang District, Bangkok",
+      "th": "ถนนหลวงแพ่ง เขตลาดกระบัง กรุงเทพมหานคร"
+    },
+    "coordinates": [
+      100.805,
+      13.717
+    ],
+    "radiusM": 250,
+    "severity": "fatal",
+    "victims": 2,
+    "sources": [
+      {
+        "name": "Bangkok Post - 2 killed, 10 hurt as elevated road collapses in Bangkok",
+        "url": "https://www.bangkokpost.com/thailand/general/2609423/2-killed-10-hurt-as-elevated-road-collapses-in-bangkok"
+      },
+      {
+        "name": "New Civil Engineer - Fatal collapse of under-construction Bangkok bridge a stark reminder of safe working procedures",
+        "url": "https://www.newcivilengineer.com/latest/fatal-collapse-of-under-construction-bangkok-bridge-a-stark-reminder-of-safe-working-procedures-12-07-2023/"
+      },
+      {
+        "name": "Thailand Construction - Two killed, 10 hurt as under-construction elevated road collapses in Lat Krabang, Bangkok",
+        "url": "https://thailand-construction.com/two-killed-10-hurt-as-under-construction-elevated-road-collapses-in-lat-krabang-bangkok/"
+      },
+      {
+        "name": "Khao Sod English - Bangkok Governor Says The Elevated Road That Fatally Collapsed Is Not Force Majeure",
+        "url": "https://www.khaosodenglish.com/news/2023/07/11/bangkok-elevated-road-fatally-collapsed/"
+      }
+    ],
+    "blackSwan": true,
+    "systemFailures": [
+      {
+        "en": "Crane equipment inspection and maintenance protocols failed—crane overturned during lift operation, indicating inadequate pre-operational safety checks and structural integrity verification of heavy lifting equipment.",
+        "th": "การตรวจสอบและบำรุงรักษาเครื่องมือยก ล้มเหลว เครื่องยกพลิกคว่ำระหว่างการยกซ้ำ แสดงว่ามีการตรวจสอบความปลอดภัยก่อนการใช้งานและการยืนยันความสมบูรณ์ของโครงสร้างของอุปกรณ์ยกหนักที่ไม่เพียงพอ"
+      },
+      {
+        "en": "Load assessment and structural design review failed—concrete span load capacity calculations, rigging design, and weight distribution analysis were inadequate for the 100-meter span being lifted from 20-meter height.",
+        "th": "การประเมินน้ำหนักและการตรวจสอบการออกแบบโครงสร้างล้มเหลว การคำนวณความจุการรับน้ำหนักคานคอนกรีต การออกแบบการเชื่อมโยง และการวิเคราะห์การกระจายน้ำหนักไม่เพียงพอสำหรับช่วงคาน 100 เมตรที่ถูกยกจากความสูง 20 เมตร"
+      },
+      {
+        "en": "Construction safety supervision and enforcement protocols failed—inadequate on-site oversight of the heavy lift operation by qualified supervisors and lack of proper safety procedures enforcement during crane operation.",
+        "th": "การเฝ้าระวังความปลอดภัยการก่อสร้างและการบังคับใช้โปรโตคอลล้มเหลว การเฝ้าดูตรวจสอบบนไซต์ของการยกหนักโดยผู้บังคับบัญชาที่มีคุณสมบัติไม่เพียงพอ และขาดการบังคับใช้ขั้นตอนความปลอดภัยที่เหมาะสมระหว่างการทำงานของเครื่องยก"
+      },
+      {
+        "en": "Construction planning and traffic management failure—lifting a 100-meter concrete beam over an active roadway (Luang Phaeng Road) without adequate traffic control, worker exclusion zones, or protective barriers to prevent impact on vehicles and pedestrians below.",
+        "th": "ความล้มเหลวในการวางแผนการก่อสร้างและการจัดการ交通ถนน การยกคานคอนกรีต 100 เมตรเหนือถนนที่มีการจราจรหนาแน่น (ถนนหลวงแพ่ง) โดยไม่มีการควบคุมการจราจรที่เพียงพอ โซนห้ามเข้าสำหรับแรงงาน หรือกำแพงป้องกันเพื่อป้องกันผลกระทบต่อยานพาหนะและคนเดินเท้าด้านล่าง"
+      }
+    ]
+  },
+  {
+    "id": "real-rongbeer-2026",
+    "category": "electrocution",
+    "title": {
+      "en": "Rong Beer Na Lat Phrao pub fire — 30 dead, blocked exits",
+      "th": "ไฟไหม้ร้านโรงเบียร์นาลาดพร้าว เสียชีวิต 30 ราย ทางออกถูกปิดกั้น"
+    },
+    "summary": {
+      "en": "A fire broke out at Rong Beer Na Lat Phrao pub in Chatuchak on July 12, 2026, killing 30 and injuring 75+ — Thailand's deadliest nightlife fire in 17 years. An electrical short circuit in a ceiling AC unit ignited flammable soundproofing; multiple emergency exits were blocked by beer crates and a candy stand, with one rear exit bolted shut and marked 'Staff Only'. The venue was licensed as a restaurant, exempting it from the sprinkler requirements a nightclub would face, and had passed an official safety audit three months earlier.",
+      "th": "เกิดเพลิงไหม้ที่ร้านโรงเบียร์นาลาดพร้าว เขตจตุจักร เมื่อวันที่ 12 กรกฎาคม 2569 มีผู้เสียชีวิต 30 ราย บาดเจ็บกว่า 75 ราย นับเป็นเพลิงไหม้สถานบันเทิงที่ร้ายแรงที่สุดของไทยในรอบ 17 ปี สาเหตุจากไฟฟ้าลัดวงจรที่เครื่องปรับอากาศบนเพดานลุกลามไปยังวัสดุกันเสียงที่ติดไฟง่าย ทางออกฉุกเฉินหลายจุดถูกปิดกั้นด้วยลังเบียร์และแผงขายขนม ทางออกด้านหลังถูกล็อกด้วยสลักและติดป้าย 'พนักงานเท่านั้น' สถานที่จดทะเบียนเป็นร้านอาหารทำให้ไม่ต้องติดตั้งระบบสปริงเกอร์ตามที่กฎหมายกำหนดสำหรับสถานบันเทิง และผ่านการตรวจสอบความปลอดภัยอย่างเป็นทางการเมื่อสามเดือนก่อนหน้า"
+    },
+    "date": "2026-07-12",
+    "location": {
+      "en": "Rong Beer Na Lat Phrao, Chom Phon, Chatuchak",
+      "th": "โรงเบียร์นาลาดพร้าว แขวงจอมพล เขตจตุจักร"
+    },
+    "coordinates": [
+      100.560883,
+      13.813313
+    ],
+    "radiusM": 100,
+    "severity": "fatal",
+    "victims": 30,
+    "sources": [
+      {
+        "name": "2026 Bangkok pub fire - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Bangkok_pub_fire"
+      },
+      {
+        "name": "Bangkok bar fire death toll rises to 30 as police probe possible negligence - Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/7/14/bangkok-fire-death-toll-rises-to-30-as-police-probe-possible-negligence"
+      },
+      {
+        "name": "Fire breaks out at a pub in Bangkok, killing at least 27 people - CNN",
+        "url": "https://www.cnn.com/2026/07/12/asia/bangkok-deadly-fire-pub-latam-intl"
+      },
+      {
+        "name": "Probe Uncovers Safety Breaches After Deadly Bangkok Pub Blaze - Globe News Bangkok",
+        "url": "https://www.globe.co.th/news/bangkok/probe-uncovers-safety-breaches-after-deadly-bangkok-pub-blaze/"
+      },
+      {
+        "name": "Bangkok Bar Fire Update: Death Toll Reaches 30 - The Pattaya News",
+        "url": "https://thepattayanews.com/2026/07/14/bangkok-bar-fire-update-death-toll-reaches-30-as-investigation-probes-licensing-violations-blocked-exits-and-safety-lapses-at-rong-beer-na-ladprao/"
+      },
+      {
+        "name": "Nation Thailand - Night of tragedy",
+        "url": "https://www.nationthailand.com/news/general/40068560"
+      },
+      {
+        "name": "Al Jazeera - Bangkok pub fire kills 27",
+        "url": "https://www.aljazeera.com/news/2026/7/13/bangkok-pub-fire-kills-27-wounds-dozens-what-we-know"
+      },
+      {
+        "name": "Thai Examiner - Police focus on negligence",
+        "url": "https://www.thaiexaminer.com/thai-news-foreigners/2026/07/14/police-focus-on-negligence-at-early-stage-of-the-lat-phrao-fire-investigation-set-up-by-commissioner/"
+      },
+      {
+        "name": "Bangkok Post - Pub fire probe begins",
+        "url": "https://www.bangkokpost.com/thailand/general/3285420/pub-fire-probe-begins"
+      }
+    ],
+    "blackSwan": true,
+    "systemFailures": [
+      {
+        "en": "Emergency exits blocked by candy table and beer crates; one rear exit locked with two bolts and marked 'Staff Only' (Do Not Open), preventing customer evacuation",
+        "th": "ทางออกฉุกเฉินปิดกั้นด้วยโต๊ะขายของหวาน และลังเบียร์ ทางออกท้ายหนึ่งถูกล็อกด้วยสลักสองตัว และติดป้าย 'เจ้าหน้าที่เท่านั้น' (ห้ามเปิด) ป้องกันการหลบหนีของลูกค้า"
+      },
+      {
+        "en": "Electrical short circuit in ceiling-mounted air conditioning unit ignited flammable soundproofing ceiling materials and decorations, creating rapid fire spread",
+        "th": "ไฟฟ้าลัดวงจรในหน่วยแอร์เพดาน จุดชนวนวัสดุฉนวนเสียงและตกแต่งเพดานที่ไม่กันไฟ สร้างการแพร่กระจายไฟอย่างรวดเร็ว"
+      },
+      {
+        "en": "Venue registered as 'restaurant' despite operating as full-service entertainment/nightclub venue, bypassing mandatory automatic sprinkler system requirement for entertainment establishments",
+        "th": "สถานที่จดทะเบียนเป็น 'ร้านอาหาร' แม้ว่าจะดำเนินการเป็นสถานบันเทิง/ไนท์คลับครบวงจร ข้ามข้อกำหนดระบบสปริงเกอร์อัตโนมัติบังคับสำหรับสถานบันเทิง"
+      },
+      {
+        "en": "April 2026 official safety audit passed despite venue having blocked exits, inadequate fire-safety measures, flammable materials, and design failures; preliminary police inspection later revealed critical violations not caught by approved audit",
+        "th": "การตรวจสอบความปลอดภัยอย่างเป็นทางการ เมษายน 2569 ผ่านการทดสอบแม้ว่าสถานที่มีทางออกปิดกั้น มาตรการความปลอดภัยจากไฟที่ไม่เพียงพอ วัสดุที่ไม่กันไฟ และข้อบกพร่องในการออกแบบ การตรวจสอบเบื้องต้นของตำรวจเปิดเผยการละเมิดที่สำคัญซึ่งไม่พบโดยการตรวจสอบที่ได้รับอนุมัติ"
+      }
+    ]
   }
 ]
