@@ -13,7 +13,8 @@ export type CategoryId =
   | 'flood'
   | 'bts_psd'
   | 'makkasan_crossing'
-  | 'sikhio_crash';
+  | 'sikhio_crash'
+  | 'rongbeer_fire';
 
 export type Severity = 'fatal' | 'injury' | 'near_miss';
 

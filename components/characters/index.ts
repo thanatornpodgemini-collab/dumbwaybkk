@@ -16,6 +16,7 @@ import { FloodCharacter, floodTimeline } from './FloodCharacter';
 import { BtsPsdCharacter, btsPsdTimeline } from './BtsPsdCharacter';
 import { MakassanCrossingCharacter, makassanCrossingTimeline } from './MakassanCrossingCharacter';
 import { SikhioCrashCharacter, sikhioCrashTimeline } from './SikhioCrashCharacter';
+import { RongbeerFireCharacter, rongbeerFireTimeline } from './RongbeerFireCharacter';
 
 export const CHARACTERS = {
   rail: RailCharacter,
@@ -33,6 +34,7 @@ export const CHARACTERS = {
   bts_psd: BtsPsdCharacter,
   makkasan_crossing: MakassanCrossingCharacter,
   sikhio_crash: SikhioCrashCharacter,
+  rongbeer_fire: RongbeerFireCharacter,
 } as const satisfies Record<CategoryId, (props: CharacterProps) => JSX.Element>;
 
 /** Bespoke "how it goes wrong" timeline per category, mirroring CHARACTERS. */
@@ -52,6 +54,7 @@ export const TIMELINES = {
   bts_psd: btsPsdTimeline,
   makkasan_crossing: makassanCrossingTimeline,
   sikhio_crash: sikhioCrashTimeline,
+  rongbeer_fire: rongbeerFireTimeline,
 } as const satisfies Record<CategoryId, CharacterTimeline>;
 
 export type CharacterComponent = (typeof CHARACTERS)[CategoryId];
@@ -72,4 +75,5 @@ export {
   BtsPsdCharacter,
   MakassanCrossingCharacter,
   SikhioCrashCharacter,
+  RongbeerFireCharacter,
 };

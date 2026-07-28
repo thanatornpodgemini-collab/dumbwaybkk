@@ -136,6 +136,15 @@ export const CATEGORIES: CategoryMeta[] = [
       th: 'เครน รถบรรทุก รถไฟ ไม่มีสัญญาณเตือน',
     },
   },
+  {
+    id: 'rongbeer_fire',
+    label: { en: 'Rong Beer Fire 2026', th: 'ไฟไหม้โรงเบียร์ 2569' },
+    color: '#c2410c',
+    tagline: {
+      en: 'Exit bolted shut. The sign above it still lit.',
+      th: 'ทางออกถูกล็อก ป้ายไฟด้านบนยังสว่างอยู่',
+    },
+  },
 ];
 
 export const CATEGORIES_BY_ID: Record<string, CategoryMeta> = Object.fromEntries(
